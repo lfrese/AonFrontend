@@ -1,0 +1,53 @@
+/*# S1 - Navigation #*/
+.navbar {  margin-bottom: 0; }
+.navbar-default {background-color:#ededed; border:0}
+.navbar-nav {margin-left:-15px;/*min-height:65px*/}
+.nav > li > a {color:#4f4f4f!important; position:relative; display:block; padding:10px 17px!important; font-size:17px}
+.nav > li > a:hover {color:#e11b22!important}
+.nav > li.first > a {padding-left:0}
+.nav > li.last > a {padding-right:0}
+
+.navbar-nav {border:0px solid #ddd}
+.navbar-toggle {margin-top:12px}
+
+.nav-arrow {display:inline-block; width:15px; height:15px;overflow:hidden;  margin:0 0 0 15px; background:url(/aon.assessment/media/images/ui/icon_arrows.png) no-repeat -93px -60px}
+/*.nav-arrow {display:inline-block; width:15px; height:15px;overflow:hidden;  margin:0 0 0 15px; background:url(/aon.assessment/media/images/ui/icon_arrows.png) no-repeat -90px -39px}*/
+
+@media only screen and (max-width: 991px) { 
+  
+.navbar-header {float: none }
+.navbar-toggle {display: block; border:none; background:none; padding:0; margin-top:20px; margin-right:5px }
+.navbar-toggle:hover {cursor:pointer; background:none!important}
+.navbar-collapse {padding:0; border-top: 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1)}
+.navbar-collapse.collapse {display: none!important}
+.navbar-nav {float: none!important; margin: 7.5px -15px; border-top:1px solid #ddd}
+.navbar-nav>li {float: none}
+.navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px}
+.navbar-text {float: none; margin: 15px 0 }
+.navbar-collapse.collapse.in {display: block!important}  /* since 3.1.0 */
+.collapsing {overflow: hidden!important}
+
+.navbar-default {background-color:#fff} 
+.navbar-nav .dropdown-menu {display:none!important}
+.nav > li > a {padding:10px 15px!important} 
+/*span.nav-arrow {background:url(/aon.assessment/media/images/ui/icon_arrows.png) no-repeat 5px 5px}*/
+span.nav-arrow {background:none}
+
+
+.sidebar-nav {background:#f0f0f0 }  
+.sidebar-nav-header {padding: 15px 0 15px 15px; border-bottom:1px solid #ddd}  
+.sidebar-header-mobile {cursor:pointer}
+.sidebar-nav #menuElem {display:none; margin:0 0 0 45px; padding-bottom:25px}  
+
+.button {padding:10px 20px!important; font-size:14px!important; margin: 0 0 15px 0 !important;} 
+}
+
+@media only screen and (min-width:768px) { /* ipad vert & up */
+.nav > li > a {padding:20px 34px 20px 0}
+   
+}
+@media only screen and (max-width : 480px) { 
+.nav-tabs {border:0}
+.nav-tabs li {float:none; display:block; width:100%; margin:7px 0}  
+.nav-tabs > li > a {border-radius:0} 
+}

@@ -1,0 +1,7 @@
+ul.nav-tabs li {font-weight:normal!important}
+.nav-tabs {font-weight:bold; border-bottom:1px solid #003f72}
+.nav-tabs > li {}
+.nav-tabs > li a:hover {background-color:#ededed; border-color:#003f72; color:#003f72!important}
+.nav-tabs > li.active > a {background-color: #003f72; border: 1px solid #003f72; border-bottom-color: transparent; color:#fff!important}
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {background-color: #003f72; border: 1px solid #003f72; border-bottom-color:transparent}
+.nav-tabs > li > a {border:1px solid #003f72; color:#003f72!important; border-radius: 5px 5px 0 0; padding:15px 25px!important; }

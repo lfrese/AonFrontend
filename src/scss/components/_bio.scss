@@ -1,0 +1,9 @@
+.bio img {width: 140px; float:left; margin:0 30px 15px 0; box-shadow: 2px 2px #aaa;}
+.bio .name {font-weight:bold; font-size:110%}
+.bio .title {}
+
+@media only screen and (max-width : 480px) { 
+
+.bio img {clear:both!important; float:none; width: 150px; height: auto; margin:10px auto}  
+.bio .panel-body {text-align:center; padding-bottom:20px}
+}

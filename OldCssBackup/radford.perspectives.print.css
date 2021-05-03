@@ -1,0 +1,58 @@
+*html, #pers {font-size: 15px; line-height: 1.5; color: #000}   
+.outer-container, .container-fluid{padding:0!important; margin:0!important}
+.noprint, #menuElem, .headshot, .pers-nav-header-mobile, .modal-link, .moreTxt, .footer-nav {display:none!important} 
+#footer, .main-footer {background:#fff; border:0}
+.persFooterNavBg {border-top:1px solid #ddd}
+
+a[href]:after {content: ""}
+abbr[title]:after {content: ""}
+a[href^="#"]:after, a[href^="javascript:"]:after { content: ""}
+
+#pers .intro, #pers .intro-sec {font-size: 20px; line-height: 30px}
+h1, .h1 {font-size:35px}
+h2, .h2 {font-size:30px; margin:20px 0; padding:0}
+h3, .h3 {font-size:25px}
+h4, .h4 {font-size:20px}
+h5, .h5 {font-size:15px}
+  
+ul.check-list, ul.arrow-list{list-style:disc}
+ul.check-list li, ul.arrow-list li {margin-left:20px; background:none; padding:0 0 15px 15px; border:0!important }
+#hero {min-height:120px!important}
+#hero.pers {padding:0; margin:0; height:auto!important; border-bottom:1px solid #ddd;}
+#hero.pers h2 {font-size:30px} 
+.pers-banner-container, .pers-banner {padding:0; margin:0}
+
+.solidfill .panel, .panel, .solidfill .panel-body {clear:both; padding:0!important; margin:0!important} 
+.panel-heading  {border-bottom:1px solid #ddd!important; }  
+.pers-authors .panel {border:1px solid #ddd; height:160px}
+.icon-03 {width:120px}
+
+*[data-aos] { display: block !important;  opacity: 1 !important; transform: translate(0) scale(1) !important}
+.step-body, .step-body p {display:block !important}
+.step-content {padding:15px}
+
+.bgDBlue, .bgLBlue {background:none!important; color:#000!important; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+.print-full {width:100%!important}
+.txtWhite, .txtGold {color:#000!important}
+
+canvas, #myChart {width:100%!important}
+.text-flow-2 {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0; column-gap: 0}
+
+.container {padding:20px 0}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, ul, ol, form, table, address {  margin-top: 0;  margin-bottom: 20px;   margin-bottom: 2rem}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 { float: left!important}
+.col-md-12 {width: 100%}
+.col-md-11 {width: 91.66666666666666%}
+.col-md-10 {width: 83.33333333333334%}
+.col-md-9 {width: 75%}
+.col-md-8 {width: 66.66666666666666%}
+.col-md-7 {width: 58.333333333333336%}
+.col-md-6 {width: 50%}
+.col-md-5 {width: 41.66666666666667%}
+.col-md-4 {width: 33.33333333333333%}
+.col-md-3 {width: 25%}
+.col-md-2 {width: 16.666666666666664%}
+.col-md-1 {width: 8.333333333333332%}
+
+ .page-break  { display:block!important; page-break-before:always; }

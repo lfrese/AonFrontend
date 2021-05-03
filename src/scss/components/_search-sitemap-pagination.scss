@@ -1,0 +1,15 @@
+
+/*# P - Search & sitemap & pagination  #*/
+.SearchDialog {margin-left:15px}
+.search-result-list {border-bottom:1px solid #ddd; padding:10px 0}
+.search-result-item h4 {line-height:1; margin-bottom:0; font-size:150%}
+.search-result-item p a {color:#777!important; font-size:90%}
+.main-body-content .pagination li, .main-body-content .pagination li a {display:inline-block; font-weight:bold; background:none; padding:5px 10px}
+.main-body-content .pagination li.is-active {background-color:#0083a9!important; color:#fff}
+.main-body-content .pagination li a:hover {background-color:#5eb6e4; color:#fff}
+.PagerResults {display:none}
+.SelectedPage {padding:5px 10px; background-color:#0083a9!important; color:#fff; font-weight:bold; text-decoration:none!important}
+.UnselectedPage {padding:5px 10px; font-weight:bold; text-decoration:none!important}
+
+.CMSSiteMapListItem {font-family:'StoneSansIIITCPro-SmBd';}
+.CMSSiteMapListItem > .CMSSiteMapList > .CMSSiteMapListItem  {font-family:'StoneSansIIITCPro-Bk';}

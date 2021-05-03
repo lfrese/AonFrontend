@@ -1,0 +1,15 @@
+
+.article-list {border-bottom:1px solid #ddd; padding-top:1.5em; padding-bottom:1.5em}
+.article-list h3 {font-family:'StoneSansIIITCPro-Bk';}
+.article-list:last-child{border:none}
+/*#infographics .article-list img {width:100%}*/
+
+/*.article-list .icon-list a  {text-decoration:none; color:#4f4f4f}
+.article-list h2 {color:#0083a9!important}
+.article-list h2 a:hover {text-decoration:none; color:#5eb6e4}
+.article-list .col-sm-3 .icon-list {margin-top:30px}*/
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+
+.article-lead-img  {clear:both!important; float:none; width:100%; margin:15px 0 !important} 
+}

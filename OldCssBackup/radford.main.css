@@ -1,0 +1,64 @@
+/* RADFORD NAV */
+/*.menu > ul > li > ul >li a:hover {text-decoration:none; color:#ccc}
+.menu > ul > li > ul >li {width:100%; float:none} 
+.menu > ul > li.firstItem > ul {width:310px}*/
+
+/* MCLAGAN nav */
+.menu.mcl > ul > li.firstItem > ul {width:100%}
+.menu.mcl > ul > li > ul > li {width: 45%; float:left}
+.menu.mcl > ul > li > ul > li.nav-col1 {width: 70%}
+.menu.mcl > ul > li > ul > li.nav-col2 {width: 30%}
+.menu.mcl > ul > li.hcMenu > ul > li { width: 100%}
+.nav-two-col ul {column-count: 2; column-gap:15px}
+.nav-two-col ul li {display: inline-block; width: 100%}
+.nav-two-col ul li a {display: block}
+.main-header-links .btn-dropdown.dropdown-menu {margin-left:15px; background-color:#5eb6e4}
+.btn-sec.btn-dropdown.btn-lblue:hover {background-color:#5eb6e4}
+
+@media only screen and (max-width: 991px) { 
+.nav-two-col ul  {column-count:1}  
+}  
+/* END MCLAGAN nav */
+
+#footer a:hover{text-decoration:none; color:#ccc}
+
+ul.arrow-list {margin-top:20px}
+.main-header-links {margin-top:45px}
+.quote .carousel-indicators { top: -45px;  text-align: right;  margin-left: 0}
+
+.cta-bar-container, .cta-bar {background-color:#5eb6e4; min-height:40px}
+.cta-bar.indv {margin:0; max-width:90%}
+
+.multicol-3 {-webkit-column-count: 3; -moz-column-count: 3; column-count: 3}
+.multicol-2 {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2}
+
+/*## PRC PART ## */
+
+.country p {margin-bottom:15px}
+.country p .step{border:1px solid #ccc; color:#fff; background:#0583a9; padding:7px 15px}
+.country p.xbig {color:#0583a9}
+#ct_select {width:95%}
+#ind_select{width:100%}
+#ct_name, #ind_name {font-size:18px; color:#0583a9; font-weight:bold}
+.count {padding-right: 25px; text-align: center; font-weight:bold}
+.count p {color:#6d6e71; margin-bottom:15px; line-height:20px; padding: 0 15px 10px 15px; border-bottom:1px solid #6d6e71}
+.number{display:block; margin:0 auto; padding:0; color: #6d6e71; font-size:30px}
+.right-col1 .count p, .right-col1 .number {margin-left:90px}
+#loader {text-align:center; height:20px; margin-top:10px;}
+
+table.tablesorter thead tr .header {background-image: url(/aon.radford/media/images/ui/icon_sort_arrows.gif); background-repeat: no-repeat;	background-position: center right; cursor: pointer;}
+table.tablesorter thead tr .headerSortUp {background-image: url(/aon.radford/media/images/ui/icon_sort_darrow.gif);}
+table.tablesorter thead tr .headerSortDown {background-image: url(/aon.radford/media/images/ui/icon_sort_uarrow.gif);}
+/*## MEDIA QUERY ##*/
+
+@media only screen and (max-width: 991px) { 
+.main-header-links{margin-top:30px}
+.menu > ul > li.firstItem > ul {width:100%} 
+.main-nav {height:70px}  
+.navbar-toggle {margin-top:10px}  
+.multicol-3 {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2}  
+}  
+
+@media only screen and (max-width:767px) {
+.multicol-3, .multicol-2 {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1}   
+}  

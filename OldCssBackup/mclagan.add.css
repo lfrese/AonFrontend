@@ -1,0 +1,130 @@
+.main-body-content ul.bullet-purple li {padding:0 5px 2px 15px; margin-top:7px; margin-bottom:17px; background: url(/aon.mclagan/media/images/ui/bullet_s_purple.png) 0 10px no-repeat;}
+
+.nav > li > a {}
+.nav > li:last-child > a {border:none}
+.navbar-right {height:60px; background:url(/aon.mclagan/media/images/ui/navbg.png) 0 0  repeat-x; min-width:45%}
+.right-links {margin:20px 30px 0 20px}
+.overflow {overflow:hidden}
+
+.outter-container.border-btm {border-bottom: 1px solid #aaa}
+.main-header-links.prc {text-transform:capitalize; margin-top:50px; font-size:14px}
+.prc {margin-top:20px; marign-bottom:20px}
+.outter-container .prc h2  {margin-top:0}
+.prc h2 {font-family:'prelo_slab_bold', serif; font-size:38px; padding-bottom:0}
+.prc h3 {font-family:'SourceSansPro-Light', serif; font-size:35px; padding-bottom:15px}
+.prc h4 {font-family:'SourceSansPro-Light', serif; font-size:32px; padding-bottom:15px}
+.prc .border-btm {border-bottom:1px solid #ddd}
+.prc .thumb {float:left; margin-top: 15px; margin-right:20px}
+/*.prc .company-list {font-family:'SourceSansPro-Light', serif; font-size:16px}*/
+.prc .lead+.lead {margin-top:0; margin-bottom:15px}
+.prc .company-list {font-size:14px; margin-top:10px}
+.prc .testimonial {background-color:#efefef; padding:40px; font-family:'SourceSansPro-Light', serif; font-size:18px }
+.prc .testimonial h5{font-size:18px; font-weight:bold}
+.prc .no-bullet li{list-style:none}
+.prc .video-list {margin-top:20px}
+.prc .video-list h5{font-family:'SourceSansPro-Light', serif; font-size:18px; font-weight:bold; cursor:pointer}
+.prc .video-list .thumb {cursor:pointer; margin-top:3px; margin-right:10px}
+.prc .video-list p {overflow:hidden}
+.prc .video-frame { margin-top:20px;  overflow: hidden;}
+.prc .video-frame iframe {width:100%; height:360px}
+/*.prc .no-bullet li a {color:#4f4f4f}
+.prc .no-bullet li a:hover {color:#5eb6e4; text-decoration:none}*/
+.chart {width:100%; height:400px}
+#regions_div{cursor:pointer}
+
+#hero {display:block; min-height:400px; width:100%; padding:20px; background-position:0 0, top center; background-size: cover}
+#hero h1, #hero h2, #hero h3 {color:#fff}
+#hero h2 {font-size:50px; font-family:'prelo_slab_book', serif; margin-top:50px }
+#hero h3 {font-size:28px; font-family:'SourceSansPro-Light', serif}
+
+#hero h2.xbig {font-size:80px}
+#hero h3.bigger {font-size:35px}
+
+#hero.network-demo, #hero.products { height:72%;  background-image:linear-gradient(rgba(18,18,18,0.6), rgba(18,18,18,0.5)), url(/aon.mclagan/media/images/main/hero-banner-mclaganlive.jpg)} 
+#hero.product-updates { height:72%;  background-image:linear-gradient(rgba(18,18,18,0.6), rgba(18,18,18,0.5)), url(/aon.mclagan/media/images/main/hero-banner-product-updates.jpg)} 
+
+#hero.banner-prc {min-height:400px; padding:20px}
+#hero.banner-prc h1 {font-family:'prelo_slab_medium', serif; font-size:38px; padding-bottom:0}
+#hero.banner-prc h2 {margin-top:35px; font-size:45px}
+
+.lead {font-family:'SourceSansPro-Light', serif; font-size:20px; line-height:1.3}
+.lead.bigger {font-size:25px}
+
+.campaign a {text-decoration:none}
+.campaign .panel-body {padding-top:10px; height:140px}
+.campaign .panel-body h4, .campaign .panel-body h5{font-family:"SourceSansPro-Light"; line-height:24px} 
+.campaign .panel-footer {text-align:left; background:none; border-top:none; padding-bottom:20px}
+
+.outter-container .main-section-header{padding:0}
+.outter-container .stats {color:#fff}
+
+.outter-container .stats {color:#fff; line-height:1.5}
+.outter-container .stats .stats-number, .outter-container .stats .stats-number-02, .outter-container .stats .stats-txt-02, .outter-container  .stats .stats-txt  {color:#fff}
+.outter-container .stats .stats-number{font-size:350%}
+.outter-container .stats .stats-txt-02 {line-height:1.5; padding-right:10px}
+
+.campaign .form-input, .campaign .form-textarea, .campaign .form-select {color:#4f4f4f}
+.campaign .btn-primary {padding:15px 45px; background-color:#fff; color:#0083a9; font-weight:bold}
+.campaign .btn-primary:hover {background-color:#f3f3f3}
+.campaign label {font-weight:bold}
+
+/*# P - Login ================= #*/
+.login-screen-container {background: #fff url(/aon.radford/media/images/main/radford-login-background.jpg) no-repeat; background-size: cover; height:85%; max-height:900px; padding-top: 8%;}
+/*.login-screen-container {border-top:1px solid #ddd; border-bottom:1px solid #ddd;height:70%; max-height:900px; background-color:#fff}*/
+.login-screen {background-color:#fff; }
+.login-text, .login-form {display:block; height:350px}
+.login-text h2 {font-family:'prelo_slab_light', serif; font-size:2.5em; line-height:1.125em; padding: 30px 0 0 0;}
+.login-form {padding:60px 0 0 0}
+.login-form input[type=text], .login-form input[type=password] {width:80%}
+.logon-remember-me-checkbox, .logon-remember-me-checkbox > label {display:none!important}
+.login-form input[type=submit]{margin-left:-15px!important;}
+.login-form .error-label{display:block; position:relative; margin:-5px 0 15px -15px!important; color:#e11b22}
+.login-form .form-control-error {color:#e11b22}
+
+/*# ZZ - Media ================= #*/
+
+@media only screen and (max-width:767px) {
+#hero.network-demo, #hero.products, #hero.product-updates {height:auto}    
+#hero h2 {font-size:34px!important; margin-top:30px}
+#hero h3 {font-size:24px!important}  
+#hero h2.xbig {font-size:50px!important}
+#hero h3.bigger {font-size:24px!important}  
+  
+.outter-container .stats {border-bottom:1px solid #77c5ec; padding-bottom:15px }  
+.outter-container .stats.last {border-bottom:0; padding-bottom:0 }    
+  
+.login-screen-container {height:auto; max-height:1300px}
+.login-text {height:auto; padding:5px 30px; border-bottom:1px solid #ddd }  
+.login-form {height:auto; padding:10px 0 30px 20px}
+.login-text h2{padding:0; font-size:2em; line-height:0.85em}
+.login-text .lead {font-size:1.05em}  
+.login-form input[type=text], .login-form input[type=password] {width:90%; margin:0}    
+}
+
+@media only screen and (max-width: 480px) { 
+#hero.banner-prc h2 {font-size:27px}
+.chart {width:100%; height:300px}  
+}
+
+@media only screen 
+and (min-width:768px) 
+and (max-width:1024px)  {    
+
+}
+
+
+@media (max-width: 991px) { 
+.button {padding:15px 20px!important; font-size:14px!important; margin: 0 0 15px 0 !important;}    
+#hero.network-demo {height:80%}  
+.campaign .panel-body{height:100px} 
+.outter-container .stats {text-align:center}   
+.main-header-links.header-btn {display:inline-block}  
+/*.main-header-links.header-btn-mobile {background-color:#e11b22; padding:8px 40px; text-transform:none}*/   
+}
+
+
+@media (min-width: 1400px) {
+#hero {padding:80px 20px}
+}
+
+/*# ZZA End #*/

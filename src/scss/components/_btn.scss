@@ -1,0 +1,51 @@
+
+.btn {padding:10px 20px; font-size:1em; white-space: normal}
+a.btn {text-decoration:none!important}
+.btn-fixedWidth {min-width:160px}
+
+.btn-primary  {color:#fff!important; border:0; background-color:#0083a9;/*padding-right:35px!important; background:#0083a9 url(/aon.assessment/media/images/ui/icon-arrow-primary-btn@2x.png) no-repeat 95% 13px*/; background-size: 20px 20px}
+.btn-primary:hover {color:#fff; background-color:#003f72; border:0}
+.btn-sec, .btn-default  {color:#0083a9; background-color:#d2d3d4; border:0}
+.btn-sec:hover, .btn-default:hover {color:#fff; background-color:#003f72; border:0}
+.btn-sec.btn-outline {border:1.5px solid #fff; color:#fff; background:transparent}
+.btn-sec.btn-outline:hover {color:#444; background-color:#fff}
+.btn-arrow  {font-weight:bold; font-size:1em; padding-right:35px; color:#222; background:#fff url(/aon.assessment/media/images/ui/icon-arrow-gray@2x.png) no-repeat 95% 9px ; background-size: 20px 20px}
+.btn-sec.btn-red {background-color:#e11b22; color:#fff!important}
+.btn-sec.btn-red:hover {background-color:#0083a9; color:#fff!important}
+.btn-sec.btn-dblue {background-color:#003f72; color:#fff!important}
+.btn-sec.btn-dblue:hover {color:#0083a9; background-color:#d2d3d4}
+.btn-sec.btn-lblue {background-color:#5eb6e4; color:#fff!important}
+.btn-sec.btn-lblue:hover {background-color:#003f72}
+
+.FormButton.btn-primary {background-image:none; margin:10px 0; min-width:150px; background-color:#5eb6e4 }
+.FormButton.btn-primary:hover {background-color:#0083a9 }
+
+ul.buttons {margin:0; padding:0; margin-top:25px}
+.btn-hero{height:50px; line-height:50px; vertical-align:middle; text-align:center; padding:0 40px; font-family:'StoneSansIIITCPro-SmBd'; text-transform: uppercase; background-color:#0083a9; color:#fff; position:relative; display:inline-block;}
+.btn-hero:after{position:absolute; right:-20px; content:" "; width: 0px; height: 0px;  border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #0083a9;}
+.btn-hero:hover{background-color:#003f72}
+.btn-hero:hover:after{width: 0px; height: 0px; border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #003f72}
+a.btn-hero {text-decoration:none; color:#fff}
+.btn-hero:hover, a.btn-hero:hover {color:#fff}
+
+.btn-hero-white{height:50px; line-height:50px; vertical-align:middle; text-align:center; padding:0 40px; font-family:'StoneSansIIITCPro-SmBd'; text-transform: uppercase; color:#4d4d4f; background-color:#fff; position:relative; display:inline-block;}
+.btn-hero-white:after{position:absolute; right:-20px; content:" "; width: 0px; height: 0px;    border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #fff;}
+.btn-hero-white:hover{background-color:#ddd}
+.btn-hero-white:hover:after{width: 0px; height: 0px; border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #ddd}
+a.btn-hero-white {text-decoration:none; color:#4d4d4f; margin-left:3px}
+
+
+a.btn-full {text-decoration:none;}
+.btn-full {display:block; border-radius: 3px; padding:10px 20px 10px 30px; margin:10px 0; clear:both}
+.btn-lgray {background-color:#edeced; color:#0083a9; text-align:left}
+.btn-lgray:hover {color:#5eb6e4; text-align:left; text-decoration:none}
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+
+.btn {margin-top:10px; white-space: normal} /* wrap long text*/
+}
+
+
+@media only screen and (max-width : 480px) { 
+.btn-full {margin:10px 0px} 
+}

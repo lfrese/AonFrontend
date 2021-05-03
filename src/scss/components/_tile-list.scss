@@ -1,0 +1,12 @@
+
+/* used for Rewards case study boxes + Assessment upcoming events  */
+.tile-list .panel {border:1px solid #ddd}
+.tile-list .panel-heading, .tile-list .panel-body, .tile-list .panel-footer {background-color:#fff;padding:15px 20px 5px 20px;}
+.tile-list .panel-heading {background-color:#003f72; border-radius:0}
+.tile-list .panel-body {min-height:120px}
+.tile-list .article-header {height:140px; overflow:hidden; }
+.tile-list .article-header img {min-height:140px}
+.tile-list .article a {color:#4d4d4f}
+.tile-list .article a:hover {color:#0083a9}
+.tile-list .article .panel-footer {border-top:1px solid #ddd; padding-top:10px; padding-bottom:3px}
+.tile-list .date {position:absolute; bottom:0;}

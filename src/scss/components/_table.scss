@@ -1,0 +1,8 @@
+/*# F2 - Table #*/
+table th {font-family:'StoneSansIIITCPro-SmBd'; font-weight:normal; vertical-align:top}
+.table{border:1px solid #ccc; border-collapse:collapse; margin:0 auto;}
+.table td {border: 1px solid #ccc; padding: 5px; vertical-align:top; text-align:left;}
+.table.center td, .table td.center {text-align:center;}
+.table th {border: 1px solid #ccc; padding: 5px; color:#fff; text-align:center; background-color:#0083A9;}
+table.highlight tr:nth-child(even) {background: #fff}
+table.highlight tr:nth-child(odd) {background: #f0f0f0}

@@ -1,0 +1,24 @@
+
+#client-slider .flex-direction-nav a.flex-next:before  { display:none}
+#client-slider .flex-direction-nav a.flex-prev:before  { display:none}  
+#client-slider .flex-direction-nav .flex-next { right: 0 !important; top:25px; margin-right:-6%; opacity: 1 !important;  height:100px}
+#client-slider .flex-direction-nav .flex-prev { left: 0 !important;  top:25px; margin-left: -6%; opacity: 1 !important; height:100px}
+#client-slider.flexslider { width:85%; margin: 0 auto!important; background:#efefef!important; border:0!important}
+#client-slider.flexslider .slides img {width: auto}
+
+#client-slider .slides div {min-height:100px; postion:relative; font-size:120%; float:left} 
+#client-slider .slides div p {background-color:#fff; border-radius: 3px; -moz-border-radius: 3px; width:170px; height:100px; padding:0 15px; text-align:center; display:table-cell; vertical-align:middle}
+#client-slider .slides div p img {max-height:80px; margin:0 auto}
+#client-slider .slides div p:hover {background-color:#fafafa}
+
+#testimonial-slider.flexslider, #testimonial-slider2.flexslider { margin: 0 auto!important; background:#efefef!important; border:0!important}
+#testimonial-slider.flexslider .slides img, #testimonial-slider2.flexslider .slides img {width:auto; margin:0 auto}
+
+#people-slider.flexslider { margin: 0 auto!important; background:transparent!important; border:0!important}
+#people-slider.flexslider .slides img.main {width:auto; margin:0 auto}
+#people-slider.flexslider .item {/*height:350px*/}
+#people-slider.flexslider .flex-control-nav {bottom:10px}
+
+@media only screen and (max-width: 991px) {   
+#testimonial-slider  {text-align:center}
+}

@@ -1,0 +1,56 @@
+
+
+/*# P - Page form #*/
+#quicksearch {padding:5px 10px; color:#003f72; border:2px solid #ccc; border-radius:5px; width:620px} /* used to filter survey boxes */
+select.filterby {font-size: 14px; border: 0 none; cursor:pointer}
+.filter {margin-top:20px}
+
+/* select dropdown style */
+.custom-select {-webkit-appearance: none; -moz-appearance: none; appearance: none; padding:7px 10px; border:1px solid #ccc; background:#eee url(/aon.assessment/media/images/ui/icon-accordion-gray.png) no-repeat 98% -25px; background-size: 27px}
+.custom-select::-ms-expand {display: none} 
+.custom-select:hover {cursor:pointer}
+
+
+.form-table.fixed-label label {margin-right:15px }
+.form-control {margin-top:3px; margin-bottom:3px; border-radius:0; -webkit-box-shadow:none; box-shadow:none}
+.txtError-inline {color:#e11b22!important; padding-left:10px}
+.form-container {background-color:#efefef; width:95%; padding:30px 30px 30px 40px}
+::placeholder, :-ms-input-placeholder, ::-ms-input-placeholder { color: #999}
+.form-box {list-style-type:none!important; padding-left:0}
+.form-box li {margin:0}
+.form-box label {font-size:95%; font-weight:normal; width:160px; vertical-align:top}
+.form-box label.aligntop {padding-top:10px}
+.form-box .form-input, .form-box .form-textarea, .form-box .form-select {font-size:95%; width:350px;  padding:2px 10px; margin-top:5px; margin-bottom:5px; vertical-align:top}
+.form-box .form-select {height:35px}
+.form-select {height:30px; line-height:30px}
+.form-box.no-label .form-input, .form-box.no-label .form-textarea, .form-box.no-label .form-select {width:100%; padding:5px; margin:5px 10px 5px 0; color:#4d4d4f;  border:1px solid #ccc}
+.form-box .form-checkbox {margin:10px 5px 0 0}
+/* System generated form style*/
+.kform input.form-control {font-size:95%; width:350px;  padding:2px 10px; margin-top:10px}
+.kform div, .kform .form-control {max-width:350px; display:inline}
+
+
+/* form 2 cols - required fixed height for balance*/
+.two-col-form .form-box.no-label .form-input, .form-box.no-label .form-select { height: 42px}
+.two-col-form .form-box.no-label .form-input, .two-col-form .form-box.no-label .form-textarea, .two-col-form .form-box.no-label .form-select { font-size: 15px; padding: 10px;  margin: 8px 0; color: #4d4d4f; border: 0;}
+.two-col-form .form-box.no-label .form-textarea { height: 157px;}
+
+.field-block {width:350px;  padding:0 5px; float:left; line-height:27px}
+.field-block-label {float:left}
+.field-block span {display:inline-block; /*width:150px!important*/}
+
+.compact.form-box li {margin:10px 0}
+.compact.form-box label {width:150px}
+.compact.form-box .form-input, .compact.form-box .form-textarea, .compact.form-box .form-select {width:60%;  padding:2px 10px}
+
+.bgError {border-left:5px solid #e21a22!important}
+#gdpr-modal label { display: inline-block; width: 90%; vertical-align: top; font-weight: normal; margin-left: 5px}
+#gdpr-modal .close { position: absolute; top: 0; right: 0;     font-size: 25px; border: 1px solid #666; padding: 2px 5px}
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+.form-box .form-input, .form-box .form-textarea, .form-box .form-select {width:100%}
+.compact.form-box .form-input, .compact.form-box .form-textarea, .compact.form-box .form-select {width:100%}  
+.modal.modal-form { position: absolute; top: 15px; }  
+.form-container {background-color:#efefef; width:98%; padding:30px}  
+#quicksearch, .form-box label, label {width:100%}  
+}

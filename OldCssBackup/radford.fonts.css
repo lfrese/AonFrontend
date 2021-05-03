@@ -1,0 +1,147 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2016 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      DSType
+ * License URL: https://www.fontspring.com/licenses/ds-type/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'prelo_slab_black';
+    src: url('/aon.radford/media/fonts/preloslab-black-webfont.eot');
+    src: url('/aon.radford/media/fonts/preloslab-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/preloslab-black-webfont.woff2') format('woff2'),
+         url('/aon.radford/media/fonts/preloslab-black-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/preloslab-black-webfont.ttf') format('truetype'),
+         url('/aon.radford/media/fonts/preloslab-black-webfont.svg#prelo_slab_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'prelo_slab_bold';
+    src: url('/aon.radford/media/fonts/preloslab-bold-webfont.eot');
+    src: url('/aon.radford/media/fonts/preloslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/preloslab-bold-webfont.woff2') format('woff2'),
+         url('/aon.radford/media/fonts/preloslab-bold-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/preloslab-bold-webfont.ttf') format('truetype'),
+         url('/aon.radford/media/fonts/preloslab-bold-webfont.svg#prelo_slab_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'prelo_slab_medium';
+    src: url('/aon.radford/media/fonts/preloslab-medium-webfont.eot');
+    src: url('/aon.radford/media/fonts/preloslab-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/preloslab-medium-webfont.woff2') format('woff2'),
+         url('/aon.radford/media/fonts/preloslab-medium-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/preloslab-medium-webfont.ttf') format('truetype'),
+         url('/aon.radford/media/fonts/preloslab-medium-webfont.svg#prelo_slab_mediummedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'prelo_slab_book';
+    src: url('/aon.radford/media/fonts/preloslab-book-webfont.eot');
+    src: url('/aon.radford/media/fonts/preloslab-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/preloslab-book-webfont.woff2') format('woff2'),
+         url('/aon.radford/media/fonts/preloslab-book-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/preloslab-book-webfont.ttf') format('truetype'),
+         url('/aon.radford/media/fonts/preloslab-book-webfont.svg#prelo_slabbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prelo_slab_light';
+    src: url('/aon.radford/media/fonts/preloslab-light-webfont.eot');
+    src: url('/aon.radford/media/fonts/preloslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('/aon.radford/media/fonts/preloslab-light-webfont.woff2') format('woff2'),*/
+         url('/aon.radford/media/fonts/preloslab-light-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/preloslab-light-webfont.ttf') format('truetype'),
+         url('/aon.radford/media/fonts/preloslab-light-webfont.svg#prelo_slab_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansPro-ExtraLight';
+    src: url('/aon.radford/media/fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Additional fonts not from fontspring.com */
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('/aon.radford/media/fonts/SourceSansPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/aon.radford/media/fonts/OpenSans-Regular-webfont.eot') format('eot');
+    src: url('/aon.radford/media/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('/aon.radford/media/fonts/OpenSans-Light-webfont.eot') format('eot');
+    src: url('/aon.radford/media/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aon.radford/media/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('/aon.radford/media/fonts/OpenSans-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('/aon.radford/media/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('/aon.radford/media/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/aon.radford/media/fonts/glyphicons-halflings-regular.eot');
+  src: url('/aon.radford/media/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('/aon.radford/media/fonts/glyphicons-halflings-regular.woff2') format('woff2'), 
+       url('/aon.radford/media/fonts/glyphicons-halflings-regular.woff') format('woff'), 
+       url('/aon.radford/media/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+       url('/aon.radford/media/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}

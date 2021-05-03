@@ -1,0 +1,7 @@
+#onetrust-consent-sdk #onetrust-banner-sdk {background-color: #4e4f53; border-top: 1px solid #777;}
+#onetrust-consent-sdk #onetrust-banner-sdk a[href] {color: #fff;}
+#onetrust-consent-sdk #onetrust-pc-btn-handler {color: #fff; border:0; background-color: #e11b22;}
+#onetrust-consent-sdk #onetrust-accept-btn-handler, #onetrust-banner-sdk #onetrust-reject-all-handler { background-color: #e11b22; border:0}
+#onetrust-banner-sdk .ot-close-icon, #onetrust-pc-sdk .ot-close-icon {background:url(https://rewards.aon.com/aon.rewards/media/images/ui/icon-close-white.png) no-repeat; width:35px; height:35px}
+#onetrust-consent-sdk #onetrust-pc-sdk button, #onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn {background-color: #e11b22; border:0}
+#onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon {background-color: #e11b22}

@@ -1,0 +1,48 @@
+
+a.cta-link {text-decoration:none}
+a.cta-link:hover {text-decoration:none; color:#5eb6e4}
+.product .panel-footer a {line-height:1.2} 
+a span.cta-02 {display:inline-block; margin:0 0 0 5px; width:25px; height:25px; background:url(/aon.assessment/media/images/ui/icon-arrow-cta-02@2x.png) no-repeat 0 0; background-size: 25px 25px}
+a:hover span.cta-02 {background:url(/aon.assessment/media/images/ui/icon-arrow-cta-03@2x.png) no-repeat 0 0; background-size: 25px 25px;}
+
+a span.cta-03 {display:inline-block; margin:0 0 0 5px; width:25px; height:25px; background:url(/aon.assessment/media/images/ui/icon-arrow-cta-04@2x.png) no-repeat 0 0; background-size: 25px 25px}
+a:hover span.cta-03 {background:url(/aon.assessment/media/images/ui/icon-arrow-cta-05@2x.png) no-repeat 0 0; background-size: 25px 25px;}
+
+.btn:active, .btn.is-checked {background-color: #003f72; color:#fff}
+.btn.is-checked {color: #ff}
+
+.cta-bar-container { border-radius:4px; background: #0083a9 url(/aon.humancapital/media/images/ui/cta-div.png) no-repeat 52% 17px }
+.cta-bar {background:#0083a9; color:#fff; font-family:'StoneSansIIITCPro-SmBd'; min-height:55px; padding: 10px 0 0 0; overflow:hidden; margin-top:15px; border-radius:4px}
+.cta-bar.indv {display:inline-block; min-width:370px; margin:0 10px; border-radius:4px}
+.cta-bar span {display:inline-block; width:35px; height:40px; margin-right:10px; line-height:40px}
+.cta-bar span.contact {background: url(/aon.humancapital/media/images/ui/icon-cta-bar.svg) no-repeat 0 6px; background-size: 36px }
+.cta-bar span.email {background: url(/aon.humancapital/media/images/ui/icon-cta-bar.svg) no-repeat 0 -28px; background-size: 36px}
+.cta-bar span.download {background: url(/aon.humancapital/media/images/ui/icon-cta-bar.svg) no-repeat 0 -67px; background-size: 36px}
+
+.cta-bar span.demo {background: url(/aon.humancapital/media/images/ui/icon-cta-bar.svg) no-repeat 0 -120px; background-size: 38px}
+.cta-bar span.video {background: url(/aon.humancapital/media/images/ui/icon-cta-bar.svg) no-repeat 0 -160px; background-size: 38px}
+.cta-bar a {color:#fff}
+.cta-bar a:hover {text-decoration:none; color:#eee}
+/*.cta-bar div:first-child {border-right:1px solid #fff}*/
+
+@media only screen and (max-width: 991px) { 
+
+.cta-bar-container {background:transparent}  
+.cta-bar.indv {width:90%!important; margin:0}
+}
+
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+  
+.cta-bar li {margin:5px}
+.cta-bar.indv {min-width:auto; width:auto; margin:5px 0;}  
+.cta-bar {padding: 10px 10px 5px 10px;}  
+}
+
+
+@media only screen and (max-width : 480px) { 
+/*.cta-bar.indv {width:auto; margin:0}  */
+/*.cta-bar span {width:30px; height:35px}
+.cta-bar span.contact {background: url(/aon.assessment/media/images/ui/icon-cta-bar.png) no-repeat 0 3px; background-size: 30px }
+.cta-bar span.email {background: url(/aon.assessment/media/images/ui/icon-cta-bar.png) no-repeat 0 -33px; background-size: 30px}  
+*/}

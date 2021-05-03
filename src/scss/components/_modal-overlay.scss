@@ -1,0 +1,18 @@
+.modal-backdrop.in {filter:alpha(opacity=90);opacity:.9}
+.modal {text-align: center; padding: 0!important}
+.modal:before {content: '';  display: inline-block;  height: 100%;  vertical-align: middle;  margin-right: -4px;}
+.modal-dialog {display: inline-block;  text-align: left;  vertical-align: middle;}
+
+.modal-link{cursor:pointer}
+.modal-content {-webkit-box-shadow:none; padding:0; box-shadow:none; border-radius: 0; }
+.modal.modal-wide .modal-dialog {width: 90%; height:90%; margin-left:auto; margin-right:auto}
+.modal-wide .modal-body, .modal-form .modal-body, .modal .modal-body {overflow-y: auto}
+.modal-header {padding:0 40px 5px 40px; border:none;}
+button.close {position:absolute; top:15px; right:20px; background:#fff; border:1px solid #ddd; padding:0 7px 5px 7px; z-index:1}
+.close {font-size:30px; filter: alpha(opacity=100); opacity: 1}
+.img-responsive {margin:0 auto}
+#video-modal .modal-dialog { width: 1160px;  max-width:90%}
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+	#video-modal .modal-dialog { width:90%}
+}

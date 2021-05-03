@@ -1,0 +1,16 @@
+.country p {margin-bottom:15px}
+.country p .step{border:1px solid #ccc; color:#fff; background:#0583a9; padding:7px 15px}
+.country p.xbig {color:#0583a9}
+#ct_select {width:470px}
+#ind_select{width:340px}
+#ct_name, #ind_name {font-size:18px; color:#0583a9; font-weight:bold}
+.count {display: inline-block; padding-right: 25px; text-align: center; font-weight:bold}
+.count p {color:#6d6e71; margin-bottom:15px; line-height:20px; padding: 0 15px 10px 15px; border-bottom:1px solid #6d6e71}
+.number{display:block; margin:0 auto; padding:0; color: #6d6e71; font-size:30px}
+.right-col1 .count p, .right-col1 .number {margin-left:90px}
+#loader {text-align:center; height:20px; margin-top:10px;}
+
+
+table.tablesorter thead tr .header {background-image: url(/aon.radford/media/images/ui/icon_sort_arrows.gif); background-repeat: no-repeat;	background-position: center right; cursor: pointer;}
+table.tablesorter thead tr .headerSortUp {background-image: url(/aon.radford/media/images/ui/icon_sort_darrow.gif);}
+table.tablesorter thead tr .headerSortDown {background-image: url(/aon.radford/media/images/ui/icon_sort_uarrow.gif);}

@@ -1,0 +1,55 @@
+
+
+/*# S - Icons ============ #*/
+.iconBar a{color:#4f4f4f!important; text-decoration:none!important}
+.iconBar a:hover {color:#5eb6e4!important}
+.tag a{color:#0083a9!important}
+.iconBar li.inline {float:left; margin-right:15px}
+.iconBar {padding:15px 0; border-top:1px solid #eaeaea; border-bottom:1px solid #ddd}
+
+.icon-list li.date{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 2px no-repeat}
+.icon-list li.location{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 -278px no-repeat}
+.icon-list li.open{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 -51px no-repeat}
+.icon-list li.download{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 -102px no-repeat}
+.icon-list li.author{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 -160px no-repeat}
+.icon-list li.tag{padding: 0 0 0 25px; background: url(/aon.assessment/media/images/ui/icon_articles.png) 0 -220px no-repeat}
+.icon-list li.none{list-style-type:none; padding: 0}
+
+
+.icon-list .icon {display:inline-block; width: 30px; height: 30px; background: url(/aon.rewards/media/images/ui/icon-social-bar.svg) no-repeat; background-size:100px}
+/*.icon-list .icon-huge{zoom:1; -moz-transform:scale(1); -moz-transform-origin: 0 0}*/
+.icon.linkedin {background-position:0 0}
+.icon.twitter {background-position:0 -34px}
+.icon.email {background-position:0 -75px}
+.icon.email:hover {background-position:-39px -75px}
+.icon.add {background-position:0 -135px}
+.icon.file {background-position:-36px 0}
+.icon.toTop {background-position:0 -185px}
+.icon.toTop:hover{background-position:-39px -185px}
+.icon.contact{background-position:0 -110px}
+.icon.contact:hover{background-position:-39px -110px}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .icon-list .icon {background: url(/aon.rewards/media/images/ui/icon-social-bar-svg.png) no-repeat; background-size:100px}
+.icon.linkedin {background-position:0 0}
+.icon.twitter {background-position:0 -34px}
+.icon.email {background-position:0 -75px}
+.icon.email:hover {background-position:-39px -75px}
+.icon.add {background-position:0 -135px}
+.icon.file {background-position:-36px 0}
+.icon.toTop {background-position:0 -185px}
+.icon.toTop:hover{background-position:-39px -185px}
+.icon.contact{background-position:0 -110px}
+.icon.contact:hover{background-position:-39px -110px}  
+  
+}
+.icon.m-menu{background-position: 0 -238px}
+.icon.m-login {background-position:-36px -230px}
+.icon.m-contact {background-position:-70px -230px}
+.header-mobile-icons.icon-list .icon {margin-top:18px; float:right; margin-right: 20px; cursor:pointer;  background-size:100px}
+
+.sticky-sidebar {width: 38px; height: auto; border-radius:20px; background: rgba(255, 255, 255, 0.8); padding:0 0 0 5px; overflow:hidden; position:fixed; z-index:100; bottom:80px; right:15px; display:none; text-indent:-9999px;}
+.sticky-sidebar.icon-list .icon {display:block; margin:10px 0; width: 35px; height: 35px; background-size:110px}
+
+.link {color:#0083a9; cursor:pointer}
+.eventDesc {padding:2em; background-color:#f0f0f0}

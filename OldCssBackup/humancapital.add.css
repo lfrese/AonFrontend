@@ -1,0 +1,44 @@
+#hero {background-position: center center;  background-repeat: no-repeat;  background-size: cover;background-attachment: fixed}
+#sec-banner {background-size: cover; background-position:center center; height:300px}
+body, html { color: #000; background-color: #fff; z-index: 0}
+#flexTmpl .header{font-family: prelo_slab_light!important}
+#flexTmpl .header strong, #flexTmpl .header bold {font-family: prelo_slab_medium}
+#flexTmpl .header.bold {font-family: prelo_slab_bold}
+
+#flexTmpl h1.header{font-size:65px; line-height:0.95em; padding:0; margin:0}
+#flexTmpl h1.header strong {font-family: prelo_slab_bold}
+
+.umega-stats {font-family: prelo_slab_black; font-size:16em; line-height:280px}
+.mega-stats {font-family: prelo_slab_bold; font-size:12em; line-height:120px}
+.xlbig-stats {font-family: prelo_slab_bold; font-size:10em; line-height:100px}
+.xbig-stats {font-family: prelo_slab_bold; font-size:8em; line-height:80px}
+.big-stats {font-family: prelo_slab_bold; font-size:6em; line-height:60px}
+.xbold-stats {font-family: prelo_slab_bold; font-size:4em; line-height:40px}
+.bold-stats {font-family: prelo_slab_bold; font-size:3em; line-height:40px}
+
+a span.download-icon {display:inline-block; margin-left:10px; width:25px; height:25px; background: url(/aon.rewards/media/images/ui/icon-outline-download-02-white.png) no-repeat center center; background-size:25px 25px}
+a:hover span.download-icon {display:inline-block; margin-left:10px; width:25px; height:25px; background: url(/aon.rewards/media/images/ui/icon-outline-download-02-red.png) no-repeat center center; background-size:25px 25px}
+
+.btn-red.btn-special:hover {background-color:#fff; color:#444!important}
+.bgDBlue {color:#fff}
+.border-top, .border-bottom {border-color:#eaeaea}
+
+.xlpadding {padding:60px}
+.vspaceT4 {margin-top:50px}
+.bracket {background: url(/aon.humancapital/media/images/ui/divider-bracket-dblue.png) no-repeat center center}
+/*.arrow-div {background: url(/aon.rewards/media/images/ui/divider-arrow-white.png) no-repeat 60% center}*/
+
+@media only screen and (max-width:767px) {
+.xlpadding, .padding4, .padding3 {padding:15px}
+.vspaceT4, .vspaceT3 {margin-top:15px}
+.paddingV4, .paddingV3, .paddingV2 {padding-top:15px; padding-bottom:15px}
+.umega-stats {font-size:10em; line-height: 180px; text-align:center}
+.mega-stats {font-size:8em; line-height:150px; text-align:center}
+.arrow-div {background-image:none}
+}
+
+@media only screen and (max-width : 480px) { 
+.umega-stats {font-size:6em; line-height: 150px; text-align:center}
+.mega-stats {font-size:6em; line-height:150px; text-align:center}
+
+}

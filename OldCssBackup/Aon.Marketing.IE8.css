@@ -1,0 +1,13 @@
+/* CSS for IE8 */
+.ie8-warning-message.ie8-show {
+text-align:center;
+background-color: #e63652;
+margin:0;
+outline-style:none;
+outline-color:invert;
+outline-width:medium;
+display:block;
+}
+.ie8-warning-message.ie8-show p {
+color:#fff !important;  
+}

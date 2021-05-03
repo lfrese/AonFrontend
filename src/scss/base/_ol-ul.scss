@@ -1,0 +1,29 @@
+
+/*# F1 - Bullet #*/
+ol {padding-left:28px}
+ol li {padding: 0 0 0 7px}
+ul {padding-left:0; list-style:none}
+/*ul li {margin-top:1 2px} making top margin consistent with p+ul */
+ul.double li, ul.double.bullet-s li{margin-top:20px}
+ul.double li:first-child {margin-top:0}
+.article-content ul li, ul.bullet-s li, .eventDesc ul li,  .eventListing ul li {padding:0 5px 2px 15px; margin-top:7px; background: url(/aon.assessment/media/images/ui/bullet-s.png) 0 12px no-repeat;}
+.article-content ul li li, ul.bullet-s li li {background:url(/aon.assessment/media/images/ui/bullet-bullet.png) 0 12px no-repeat}
+
+ul.arrow-list {list-style-type:none; padding-left:0}
+ul.arrow-list li {padding:0 0 15px 25px;  background: url(/aon.assessment/media/images/ui/bullet-style-blue.png) 0 5px no-repeat; background-size:13px 16px}
+ul.arrow-list li ul li {padding:0 5px 2px 15px; margin-top:7px; background: url(/aon.assessment/media/images/ui/bullet-s.png) 0 12px no-repeat}
+
+ol.num-list {list-style:none; margin-left:-40px; counter-reset:steps}
+ol.num-list li:before {counter-increment: steps;  content: counter(steps); display:block; float: left; position: absolute; left:15px; width:35px; height:35px; padding:2px 0 0 0;  border-radius: 50%; background:#efefef; color: #0083a9; font-family:'prelo_slab_medium', Arial; font-weight:bold; text-align: center}
+ol.num-list.green li:before {background:#7ab800}
+ol.num-list li {padding:12px 0 10px 55px}
+ol.num-list li.none:before {content:''}
+ol.num-list li.none{padding-left:0}
+ol.num-list li.none > span {display:inline-block; margin:7px 0 0 22px; color: #0083a9}
+
+ul.CMSSiteMapList li {background:none; font-size:120%; padding:0 5px 10px 0; }
+ul.CMSSiteMapList li li{border-bottom:0; font-size:90%!important; padding:0 5px 7px 20px; background: url(/aon.assessment/media/images/ui/bullet-s.png) 0 10px no-repeat;}
+ul.CMSSiteMapList li:first-child {margin:8px 0 15px 0}
+ul.CMSSiteMapList li li:first-child {margin:0}
+
+.no-bullet, .no-bullet:hover, li.no-bullet  {list-style-type:none!important; padding-left:0!important; background:none!important; }

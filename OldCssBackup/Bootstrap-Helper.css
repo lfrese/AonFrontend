@@ -1,0 +1,67 @@
+/* Makes images and tables fit their containing cells, if this is missing then images and tables will expand beyond their containers */
+.row img, .row table 
+{ 
+  max-width:100%; 
+  height:auto;
+}
+
+/*
+ * Row with equal height columns, supported in IE 10+
+ * http://getbootstrap.com.vn/examples/equal-height-columns/
+ * http://caniuse.com/#feat=flexbox
+ * --------------------------------------------------
+ */
+
+@media all and (min-width:1200px) {
+  .row-lg-equal-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+}
+@media all and (min-width: 992px) {
+  .row-md-equal-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+}
+@media all and (min-width: 768px) {
+  .row-sm-equal-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+}
+
+.row-xs-equal-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+@media all and (min-width:1200px) {
+  .row-lg-normal-height {
+    display: block !important;
+  }
+}
+@media all and (min-width:992px) {
+  .row-md-normal-height {
+    display: block !important
+  }
+}
+@media all and (min-width: 768px) {
+  .row-sm-normal-height {
+    display: block !important
+  }
+}
+.row-xs-normal-height {
+  display: block !important
+}.EditMode div[class *='equal-height'], .DesignMode div[class *='equal-height'] {
+  display: block !important;
+}

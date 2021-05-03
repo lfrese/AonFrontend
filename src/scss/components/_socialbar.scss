@@ -1,0 +1,15 @@
+/*# S3 - Social bar #*/
+.sidebar-nav #menuElem {}
+
+.social-bar {display:block; width:100%; min-height:35px; margin-top:15px; border-bottom:1px solid #ddd; font-size:85%; text-align:right; color:#777}
+.social-bar li {display:inline-block; margin-left:15px}
+.social-bar a{color:#777!important; text-decoration:none!important}
+.social-bar a:hover{color: #5eb6e4!important}
+.social-bar .icon {margin:-2px 0 0 0; width:22px}
+
+@media only screen and (max-width: 991px) { 
+ 
+.social-bar ul {margin-top:10px} 
+.social-bar {text-align:left}
+.social-bar li {margin-left:0; margin-right:15px}
+}

@@ -1,0 +1,66 @@
+.main-header, .main-nav, .main-content,.main-footer, .section-header-content { margin:0 auto}
+.outer-container {width:100%; background:#efefef; padding:30px 0}
+
+/*
+.fullwidth {width:100%; padding: 0}
+.fullwidth h2 {line-height:1; margin:15px 0}
+.main-content {margin-top:40px}
+.main-content h1:first-child, .main-content h2:first-child {margin-top:-20px!important}*/
+
+/*# S1 - Header logo #*/
+.logo  {width:100px}
+.logo-mobile  {width:75px}
+
+#header{background:#fff; width:100%}
+.main-header{height:110px}
+.main-header-logo{ float:left; margin:25px 0 0 0;}
+.main-header-links{float:right; margin-top:60px; text-transform:uppercase; font-size:14px}
+.main-header-links li{display:inline; padding:10px 15px}
+.main-header-links li > a:hover {text-decoration:underline}
+.main-header-links .last{border:0; margin-right:40px; }
+.main-header-links .dropdown:hover {background-color:#fff}
+.main-header-links .dropdown-menu {z-index:1010; background-color:#4d4f53; padding:10px 20px; border:0; border-top:3px solid #e11b22; border-radius:0 }
+.main-header-links li li{ display:block; padding:0; border-right:none; text-transform:capitalize!important}
+.main-header-links li li:first-child{margin-top:10px}
+.main-header-links li li:last-child{margin-bottom:10px}
+.main-header-links .dropdown-menu > li > a {background-color:transparent; color:#fff; display:inline-block; padding:4px 5px}
+/*.main-header-links li.call {padding-left:25px; background:url(/aon.assessment/media/images/ui/icon_s_phone.png) no-repeat 0 7px}
+.main-header-links li.email {padding-left:25px;  background:url(/aon.assessment/media/images/ui/icon_s_email.png) no-repeat 0 8px}
+.main-header-links li.contact {padding-left:25px; background:url(/aon.assessment/media/images/ui/icon_s_contact.png) no-repeat 0 7px}
+*/
+.flags {list-style:none}
+.two-col{ column-count:2;  column-gap: 10px;}
+.flag{display:inline-block; width:16px; height:11px; line-height:13px; margin:0 6px 0 0; background:url(/aon.assessment/media/images/ui/flags.png) no-repeat}
+.globe{display:inline-block; width:16px; height:16px; line-height:16px; margin:0 3px 0 0; background:url(/aon.humancapital/media/images/ui/language.svg) no-repeat; background-size: 15px 15px;}
+
+.flag-au {background-position: -208px 0;}
+.flag-br {background-position: -208px -11px;}
+.flag-ch {background-position: -144px -22px;}
+.flag-cn{background-position: -224px -22px;}
+.flag-cz {background-position: -80px -33px;}
+.flag-de {background-position: -96px -33px;}
+.flag-dk {background-position: -128px -33px;}
+.flag-es {background-position: -32px -44px;}
+.flag-fi {background-position: -80px -44px;}
+.flag-fr {background-position: -160px -44px;}
+.flag-gb {background-position: -192px -44px;}
+.flag-hu {background-position: -48px -66px;}
+.flag-it {background-position: -224px -66px;}
+.flag-in {background-position: -144px -66px;}
+.flag-nl {background-position: -96px -110px;}
+.flag-no {background-position: -112px -110px;}
+.flag-pl {background-position: -48px -121px;}
+.flag-pt {background-position: -128px -121px;}
+.flag-se {background-position: -96px -132px;}
+.flag-sg {background-position: -112px -132px;}
+.flag-sk {background-position: -176px -132px;}
+.flag-tr {background-position: -64px -154px;}
+.flag-us {background-position: -192px -154px;}
+.flag-ae {background-position: -32px 0;}
+
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+  
+#language-mobile, #login-mobile {padding:15px 8px}  
+#search-box-mobile .search-icon {top:0px!important}   
+}

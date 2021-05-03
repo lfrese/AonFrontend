@@ -1,0 +1,12 @@
+
+
+@media print {
+a[href]:after, abbr[title]:after{content:""}
+a[href^="#"]:after, a[href^="javascript:"]:after{content:""}
+.social-bar, #scrollup,#footer, .btn, button, .main-header-links, #search-box {display:none}
+.main-header {display:block!important; border-bottom:1px solid #666}
+  
+.bgDBlue, .bgBlue, .bgLBlue {background-color:#fff!important; color:#000!important}
+.padding1, .padding2, .padding3, .vspaceT, .vspaceT2, .vspaceT3 {margin:0; padding:0}
+}  
+/*# ZZA End #*/

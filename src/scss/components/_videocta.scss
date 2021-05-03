@@ -1,0 +1,117 @@
+section.videoCTA .container{
+  padding-bottom:40px;
+  padding-top:40px;
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+  width:auto;
+}
+section.videoCTA .row{
+  display:block;  
+}
+section.videoCTA .header{
+  margin-bottom:3rem;
+}
+section.videoCTA .vid a{
+    width:100%;  
+}
+ section.videoCTA .vid a:before{
+  position: absolute;
+    position: absolute;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    font-size: 23px;
+    padding-left: 17px;
+    transition: all .25s ease-in-out;
+    z-index: 3;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding-top: 16px;
+}
+section.videoCTA .vid a:hover:before{
+    color:#5eb6e4;
+    border-color:#5eb6e4;
+}
+section.videoCTA img{
+    max-width:100%;
+    visibility:hidden;
+}
+section.videoCTA .txt{
+      padding-top:48px;
+    padding-bottom:47px;
+    background-color:#003f72;
+    color:#fff;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:16px;
+  }
+section.videoCTA li{
+        font-size: 105%;
+    border: 0;
+    padding: 15px 10px 15px 45px;
+    background: url(/aon.assessment/media/images/leadpage/listIcon_landing.svg) no-repeat 0 15px;
+    background-size: 30px 30px;
+}
+section.videoCTA .txt h2, section.videoCTA .txt h3, section.videoCTA .txt h4, section.videoCTA .txt h5{
+    color:#fff;
+    text-align:left;
+  }
+
+@media(min-width:1024px){
+  section.videoCTA .container{
+    margin: 0 auto;
+    padding: 60px 15px;
+    width:970px;
+  }
+    section.videoCTA .row{
+       display:table-row;
+   }
+  section.videoCTA .col{
+       display:table-cell;
+       float:none;
+       vertical-align:middle;
+   }
+    section.videoCTA .header{
+      max-width:65%;
+      display:block;
+    }
+  section.videoCTA .vid{
+    background-image:none!important;  
+  }
+    section.videoCTA .vid a{
+         position:relative;
+        right:-70px;
+        display:block;
+    }
+   section.videoCTA .vid a:before{
+    margin-left: -50px;
+    margin-top: -35px;
+    }
+    section.videoCTA .vid img{
+        position:relative;
+        z-index:2;
+        display:block;
+        visibility:visible;
+    }
+    section.videoCTA .txt{
+      height:100%;
+      padding-top:65px;
+    padding-bottom:65px;
+    background-color:#003f72;
+    color:#fff;
+    padding-left:95px;
+    padding-right:30px;
+    font-size:16px;
+  }
+}
+@media(min-width:1200px){
+ section.videoCTA .container{
+    width:1170px;
+  }
+}

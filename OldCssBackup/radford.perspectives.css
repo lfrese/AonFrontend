@@ -1,0 +1,349 @@
+/*# 00 Top ================= #*/
+#footer {margin-top:0}
+#pers {font-family: 'OpenSans-Regular', Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #444; background-color: #fff; -webkit-font-smoothing:antialiased!important}
+#pers strong, #pers .strong {font-family:'OpenSans-Bold', Arial;}
+#pers a {color:#5eb6e4; text-decoration:underline}
+#pers a:hover {text-decoration:none}
+h1, h2, h3, h4, h5, h6 {line-height:1.4; font-family:'prelo_slab_bold', serif; color:#000}
+h1.black, h2.black, h3.black, h4.black, h5.black, h6.black {font-family:'prelo_slab_black', serif}
+.h1, .h2, .h3, .h4, .h5, .h6 {line-height:1.4; font-family:'OpenSans-SemiBold', 'prelo_slab_bold'; color:#000}
+.h11, .h12, .h13, .h14, .h15, .h16 {line-height:1.4; font-family:'OpenSans-Regular', 'prelo_slab_book'; color:#000}
+
+h1, .h1, .h11 {font-size:250%}
+h2, .h2, .h12 {font-size:235%; margin-top:30px; margin-bottom:20px}
+h3, .h3, .h13 {font-size:190%}
+h4, .h4, .h14 {font-size:175%}
+h5, .h5, .h15 {font-size:150%}
+h6, .h6, .h16 {font-size:125%}
+
+h4.bigger {font-size:178%}
+h5.bigger {font-size:160%}
+
+/*# 02 Banner ================= #*/
+
+.pers-banner-container {background:url(/aon.radford/media/images/perspectives/pers-banner-bg.png) repeat-y 62% 50%; opacity:0.9; display:table-cell; vertical-align:middle;}
+.pers-banner {padding:1.75% 0 3% 0; margin:0 auto}
+.pers-banner .name {color:#f0ab00; font-size:21px; font-family:'OpenSans-Regular', serif; font-weight:bold; padding-bottom:5px; border-bottom:1px solid #ddd}
+.pers-banner .desc {font-size:18px; font-family:'OpenSans-Regular', serif; color:#000}
+#hero.pers h2 {font-size:50px; font-family:'prelo_slab_bold', serif; margin-top:0px; margin-bottom:0px; color:#000} 
+#hero.pers {padding:9% 0 10% 0; display:table}
+#hero.pers.comp h2 {font-size:52px; text-transform:uppercase; font-family:'Cabin Sketch','prelo_slab_bold', serif; font-weight:700; margin-top:0px; margin-bottom:0px; color:#000} 
+
+.comp101-banner-container {display:table-cell; vertical-align:middle;}
+.comp101-banner {padding:1.75% 0 3% 0; margin:0 auto}
+.comp101-banner .name {color:#fff; font-size:28px; font-family:'Cabin Sketch','OpenSans-Light', serif; font-weight:bold; padding-bottom:5px; /*border-bottom:1px solid #ddd*/ background:url(/aon.radford/media/images/comp101/bg-chalk-line.png) no-repeat 0 25px;}
+.comp101-banner .desc {font-size:37px; font-family:'Cabin Sketch','OpenSans-Light', serif; color:#f0ab00}
+.comp101-banner .desc.big {font-size:42px}
+
+/*# 04 Nav  ================= #*/
+.mobile-icon.pers-mobile {background:url(/aon.radford/media/images/ui/icon_mobile_menu_gray.png) no-repeat 0 0}
+.pers-nav {padding:15px 0 15px 15px }  
+.pers-nav-header-mobile {cursor:pointer; font-family:'OpenSans-Bold'!important; font-size:1.2em}
+/*#persNavList ul {list-style:none; display:block; margin:0; padding:0  }
+#persNavList {display:none}
+#persNavList {margin-left:12px} 
+#persNavList li {display:block; width:100%; text-align:left; border:0; padding:5px 0; margin-left:-20px!important; font-size:1.125em; font-family:'prelo_slab_book'; line-height:1.35em;  } 
+#persNavList li.coming-soon a, #persNavList li.coming-soon a:hover {text-decoration:none; color:#999; cursor:not-allowed}
+#persNavList li:first-child {margin:0}
+
+#persNavList li a {color:#000}
+#persNavList li a:hover {text-decoration:underline; color:#000}
+#persNavList li.current a {text-decoration:none; color:#5eb6e4}*/
+
+.persNavBg {background-color:#f0f0f0; border-top:5px solid #f0ab00}
+.persNavList {list-style:none; margin:0; padding:0  }
+.persNavList li {font-size:1.125em; font-family:'OpenSans-Regular' } 
+.persNavList ul li:first-child {margin-top:25px} 
+.persNavList li.coming-soon a, .persNavList li.coming-soon a:hover {background-color:transparent; text-decoration:none; color:#999; cursor:not-allowed}
+.coming-soon:hover, .coming-soon a:hover {cursor:not-allowed!important}
+.persNavList li:first-child {margin:0}
+.persNavList li a {color:#000}
+.persNavList li a:hover {background-color:transparent; color:#5eb6e4}
+.persNavList li.current a {text-decoration:none; color:#5eb6e4}
+.persNavList li.current a:hover {background-color:transparent}
+
+.persFooterNavBg {background-color:#5eb6e4}
+.persFooterNav {padding:0; margin-top:70px; padding:15px 0; font-family:'OpenSans-Bold'; font-size:1em; }
+.persFooterNav a {text-decoration:none!important; color:#444!important}
+.persFooterNav a:hover {color:#5eb6e4!important}
+.persFooterNavList {list-style:none!important}
+.persFooterNavList .readon {color:#fff}
+.persFooterNavList li {display:inline-block}
+.persFooterNavList li.next {margin-right:15px;}
+.persFooterNavList li.prev {margin-left:15px}
+.btn.pers-next {margin-left:10px; padding-right:40px; border:1px solid #aaa; background:#fff url(/aon.radford/media/images/ui/icon-arrow-R5.png) no-repeat 95% 10px; background-size:20px 20px}
+.btn.pers-next:hover {color:#444!important; background-color:#eaeaea}
+.btn.pers-prev {margin-right:10px; padding-left:40px; border:1px solid #aaa; background:#fff url(/aon.radford/media/images/ui/icon-arrow-L5.png) no-repeat 5% 10px; background-size:20px 20px}
+.btn.pers-prev:hover {color:#444!important; background-color:#eaeaea}
+
+
+/*# 05 Utility Bar  ================= #*/
+.cf_widget {padding-right:8px; border-right:1px solid #ccc}
+.cf_widget .cf_pushbutton .cf_actionElem {}
+.cf_widget a {color:#444}
+.cf_widget .cf_socialicons .cf_linkedin { background: url(/aon.radford/media/images/ui/icon-social-linkedin@2x.png) left center no-repeat; background-size:25px 25px;}
+.cf_widget .cf_socialicons .cf_twitter { background: url(/aon.radford/media/images/ui/icon-social-twitter@2x.png) left center no-repeat; background-size:25px 25px;}
+.cf_widget .cf_socialicons .cf_socialicon {width: 25px; height: 25px; float: left; margin-right: 5px;}
+div.cf_widget {font-family: "OpenSans-Regular", serif; font-weight: normal; font-size: 14px; color: #000; text-align: left}
+.util-print {display:inline-block; margin-left:15px; margin-right:8px; width:25px; height:25px; cursor:pointer; background:url(/aon.radford/media/images/ui/icon-print@2x.png) left center no-repeat; background-size:25px 25px}
+
+/*# 06 Body ================= #*/
+#pers .intro {font-family:"SourceSansPro-Light"; font-size:2em; line-height:1.4em}
+#pers .intro-sec {font-family:"SourceSansPro-Light"; font-size:1.75em; line-height:1.4em}
+#pers .outer-container {width:100%; padding:30px 0}
+#pers .table3 th {background:#5eb6e4; color:#fff; padding:15px 15px 10px 15px}
+#pers .table3 td {padding:20px 15px 15px 15px; background-color:#f0f0f0; vertical-align:middle; border-bottom:1px solid #ddd }
+#pers .table3 tr:nth-child(odd) { background-color: #fff}
+.table {margin:0}
+.table th { background-color:#84c446; font-family:"OpenSans-Bold"}
+.table td {border: 1px solid #ddd}
+.table tr:nth-child(even) {background: #eaeaea}
+
+.table4 {margin:0}
+.table4 th {font-family:"OpenSans-Bold"; text-align:center; padding:10px 0}
+.table4 td {padding:5px 10px}
+.table4 td span {text-align:center; margin:0 auto; display:block; border:2px solid #fff; border-radius:5px; width:70%; height:30px}
+.table4.small {font-size:95%}
+.table5 .bold {font-family:"OpenSans-Bold"}
+.table5 th {font-family:"OpenSans-Bold"; text-align:center; padding:10px 0}
+.table5 td {text-align:center; padding:5px 10px}
+.table5.borderTD td, .table5.borderTD th {border-bottom:1px dotted #ddd; padding:10px}
+.table5.borderTD .last td {border:0}
+.table5.no-padding td {padding:0}
+
+span.increase:after {content: "\25B2"; color:#5eb6e4; font-size:200%}
+span.decrease:after {content: "\25BC"; color:#f0ab00; font-size:200%}
+span.no-change:after {content:"\25AC"; font-size:200%}
+
+/*# 06 Format ================= #*/
+/* different from padding1 = padding between div */
+.padding-tb1 {padding-top:15px!important; padding-bottom:15px!important}
+.padding-tb2 {padding-top:30px!important; padding-bottom:30px!important}
+.padding-tb2.first {padding-top:15!important; padding-bottom:30px!important}
+.padding-tb3 {padding-top:45px!important; padding-bottom:45px!important}
+.padding-tb3.first {padding-top:15px!important; padding-bottom:45px!important}
+.padding-all1 {padding:20px; margin-top:20px}
+
+
+.numcirle, span.numcircle {display:block; width:40px; height:40px; padding:4px 0; font-size:18px; font-weight:bold; border-radius: 50%; background:#f0ab00; color: #fff; text-align: center}
+.spacing {line-height:30px; clear:both}
+.no-margin {margin:0!important}
+.no-padding {padding:0!important}
+.border-btm { border-bottom: 1px solid #ddd;  padding-bottom: 10px}
+.border-r-lg-md-sm {border-right:1px solid #fff}
+.bgMGray {background-color:#808080; color:#fff}
+.box-padding {padding:5%}
+.box-bg-01 {color:#222; background:#f0f0f0 url(/aon.radford/media/images/perspectives/bg-lines-011.png) right top no-repeat; background-size:500px 600px}
+.box-bg-02 {color:#222; background:#f0f0f0 url(/aon.radford/media/images/perspectives/bg-lines-021.png) right top no-repeat; background-size:500px 600px}    
+
+.panel .svc-icon {display: block;  max-width: 100%; height: auto; margin:5px auto}
+.icon-00 {width:115px}
+.icon-01 {width:140px}
+.icon-02 {width:125px}
+.icon-03 {width:180px}
+.icon-04 {width:240px}
+.icon-05 {width:70px}
+.icon-06 {width:90px}
+.headshot{float:left; margin:0 15px 15px 0;}
+
+.padding-l-01 {margin-left:15px}
+.padding-r-01 {margin-right:15px}
+
+.img-inline {float:left}
+.plus-inline {float:left; width:15px; line-height:100px!important; color:#f0ab00; font-size:30px; font-weight:bold}
+.explain {padding:30px 30px 30px 50px; position:relative}
+.explain .icon {width:80px; height:80px; position:absolute; left: 0px; top:15px; z-index:1; background: url(/aon.radford/media/images/perspectives/icon-people-analytics-explain.png) no-repeat left top; background-size:80px auto}
+.explain-content {position:relative; padding:15px 30px; border:1px solid #f0ab00; }
+
+.border-btm-dot {border-bottom:1px dotted #406991} /* for dark blue background */
+.page-break {display:none}
+
+/*# 07 Buttons  ================= #*/
+.btn-primary  { font-family:'OpenSans-Bold', 'prelo_slab_bold'; padding:15px 60px; border:0; background:#fff; color:#6e267b }
+.btn-primary:hover {background-color:#5eb6e4; border:0}
+.btn-sec.is-checked, .btn-sec:focus {background:#888; color:#fff}
+.btn-hero{text-decoration:none; font-weight:bold; font-size:110%; background-color:#bbb}
+.btn-hero:after{border-color: transparent transparent transparent #bbb}
+.btn-hero:hover{background-color:#5eb6e4}
+.btn-hero:hover:after{border-color: transparent transparent transparent #5eb6e4}
+
+.btn-hero.white{color:#000!important; background-color:#fff!important}
+.btn-hero.white:after{border-color: transparent transparent transparent #fff!important}
+.btn-hero.white:hover{background-color:#eaeaea!important}
+.btn-hero.white:hover:after{border-color: transparent transparent transparent #eaeaea!important}
+
+a.btn-hero {text-decoration:none!important; color:#fff!important}
+
+
+.pers-form a {color:#fff; text-decoration:underline}
+.pers-form a:hover {color:#5eb6e4; text-decoration:underline}
+.form-box.no-label .form-input, .form-box.no-label .form-textarea, .form-box.no-label .form-select {font-size:15px; padding:10px; margin:8px 0; color:#000; border:0}
+.form-box.no-label .form-input, .form-box.no-label .form-select {height:42px}
+.form-box.no-label .form-textarea {height:157px}
+input[type="radio"], input[type="checkbox"] { margin:0 0 2px 5px; vertical-align: bottom; cursor:pointer}
+
+/*# 07 Panel  ================= #*/
+.silo div[class*='col-'] {padding-left:0; padding-right:0}
+.silo .panel {border-right:1px solid #ddd}
+.silo .panel, .silo .panel-heading, .silo .panel-body, .silo .panel-footer {background-color:#fff; text-align:center}
+.silo .panel-body{padding-top:10px; padding-bottom: 0px}
+.silo .panel-footer {padding-top:15px}
+.silo .panel.last {border-right:none}
+
+.solidfill .panel {border:0; padding:15px 15px 20px 15px!important; background-color:#f0f0f0}
+.solidfill .panel-body {padding-top:20px; }
+
+.flow p { position:relative; border:2px solid #5eb6e4; background:#fff; border-radius:3px; padding:10px; vertical-align:middle; font-size:95% }
+/*.flow p:before,*/.flow p:after {content:''; height:2em; border-right:2px solid #5eb6e4; position:absolute; left:50%; top:100% }
+.flow p:first-of-type:before, .flow p:last-of-type:after { display:none}
+.flowH p {position:relative; z-index:2; border:2px solid #5eb6e4; background:#003f72; border-radius:5px; padding:10px; vertical-align:middle; width:70%; margin:5px auto }
+td.flowH {position:relative; overflow:hidden}
+td.flowH:before {content:''; width:50%; height:2px; background:#5eb6e4; /*border:2px solid #5eb6e4;*/ position:absolute; top:50%; left:0}
+td.flowH:after {content:''; width:50%; height:2px; background:#5eb6e4; /*border:2px solid #5eb6e4;*/ position:absolute; top:50%; left:50%}
+td.flowH.noleft:before, td.flowH.noright:after {background:transparent}
+
+/*# 07 Lists  ================= #*/
+
+ul.check-list {list-style:none; margin-left:-40px}
+ul.check-list li {border-bottom:1px dotted #ddd; padding:25px 0 25px 70px; background:url(/aon.radford/media/images/perspectives/icon-check-01.png) no-repeat 0 25px; background-size:50px 50px}
+ul.check-list.single li {padding:35px 0 25px 70px}
+
+ul.check-list-s {list-style:none; margin-left:-40px}
+ul.check-list-s li {padding:0 0 15px 40px; background:url(/aon.radford/media/images/ui/icon-check-02.png) no-repeat 0 0px; background-size:25px 25px;}
+
+ul.arrow-list {list-style-type:none; padding-left:0}
+ul.arrow-list li {padding:0 0 15px 25px;  background: url(/aon.radford/media/images/ui/bullet-style-blue.png) 0 5px no-repeat; background-size:13px 16px}
+ul.arrow-list.yellow li {background: url(/aon.radford/media/images/ui/bullet-style-yellow.png) 0 5px no-repeat; background-size:13px 16px}
+ul.arrow-list.green li {background: url(/aon.radford/media/images/ui/bullet-style-green.png) 0 5px no-repeat; background-size:13px 16px}
+ul.arrow-list.no-bullet li {padding:0 0 15px 22px;  background: none}
+
+ol.num-list {list-style:none; margin-left:-40px; counter-reset:steps}
+ol.num-list li:before {counter-increment: steps;  content: counter(steps); display:block; float: left; position: absolute; left:15px; width:50px; height:50px; padding:10px 0; font-size:18px; font-weight:bold; border-radius: 50%; background:#f0ab00; color: #fff; text-align: center}
+ol.num-list.green li:before {background:#7ab800}
+ol.num-list li {padding:25px 0 25px 70px; border-bottom:1px dotted #ddd}
+ol.num-list.dDot li {border-bottom:1px dotted #aaa}
+
+ul.legend {list-style:none}
+ul.legend li {display:inline-block; margin-right:30px; height:25px; padding-left:25px; position:relative;}
+ul.legend span {width:14px; height:14px; border:2px solid #fff; position:absolute; top:5px; left:0; background:#fff}
+
+ul li.last, ol li.last {border:0!important}
+
+.accordion-heading a {text-decoration:none; color:#4d4d4f}
+.accordion-heading a:hover {color:#80bc41}
+.accordion-body {margin-left:35px}
+.accordion-group {border-bottom:1px solid #ddd; padding:10px 0; overflow:hidden}
+.accordion-group.last {border-bottom:0}
+.plus-minus {display:inline-block; width:30px; height:30px}
+.plus-minus.plus {background: url(/aon.humancapital/media/images/ui/icon-plus-green@2x.png) no-repeat 0 2px; background-size: 25px 25px}
+.plus-minus.minus {background: url(/aon.humancapital/media/images/ui/icon-minus-green@2x.png) no-repeat 0 2px; background-size: 25px 25px}
+
+.postIt {padding:30px; border:1px solid #eee; width:95%; background:#ffff88; font-family: 'Sedgwick Ave', cursive!important; font-size:1.2em; box-shadow: 0 8px 6px -6px #aaa; -moz-box-shadow: 0 8px 6px -6px #aaa; -webkit-box-shadow: 0 8px 6px -6px #aaa;
+/*-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg)*/}
+.postIt.green {background:#a3d374}
+.postIt li { padding-left:10px}
+.postIt ol {margin-left:-20px}
+.postIt .border-btm {border-bottom:1px solid #444}
+
+
+/*# 07 Steps ==================#*/
+
+.steps { position: relative; }
+
+/* line */
+.steps::after { content: ''; position: absolute; width: 6px;  background-color: white; top: 0;  bottom: 0; left: 50%; margin-left: -3px; z-index:0}
+
+.step-container {position: relative;  background-color: inherit;  width: 50%}
+.step-container.left {padding:10px 40px 10px 0}
+.step-container.right {padding:10px 0 10px 40px}
+
+/* circle */
+.step-container::after { content: ''; position: absolute; width: 30px; height: 30px; right: -15px; background-color: #fff; border: 1px solid #fff; top: 50px; border-radius: 50%; z-index: 1}
+.left { left: 0}
+.right { left: 50%}
+
+/*.left::before { content: " ";  height: 0;  position: absolute;     top: 22px; width: 0; z-index: 1; right: 30px; border: medium solid white; border-width: 10px 0 10px 10px; border-color: transparent transparent transparent white}
+.right::before { content: " "; height: 0; position: absolute; top: 22px; width: 0; z-index: 1; left: 30px; border: medium solid white; border-width: 10px 10px 10px 0;  border-color: transparent white transparent transparent}*/
+.right::after { left: -16px; }
+.step-content { padding: 20px 30px; background-color:#fff; position: relative; border-radius: 6px}
+
+.step-heading {display:block; overflow:hidden; clear:both; margin-bottom:0px}
+.step-heading img {float:left; margin:0 20px 0 0; cursor:pointer }
+.step-heading p {font-size:1.2em; line-height:1.3em;}
+.step-heading span {font-size:0.925em; display:block; color:#f0ab00; padding:10px 15px 10px 0; cursor:pointer}
+.step-heading span:hover {color:#5eb6e4}
+.step-body p, .step-body ul {display:none}
+
+/* icon + short txt more padding */
+.step-heading2 {display:block; overflow:hidden; clear:both; margin-bottom:0px}
+.step-heading2 img {float:left; margin:0 20px 0 0; cursor:pointer }
+.step-heading2 p {padding-top:15px; padding-bottom:20px}
+.step-heading2 span {display:block; color:#5eb6e4; padding:5px 15px 10px 0; cursor:pointer}
+
+/* icon + short txt less padding */
+.step-heading3 {display:block; overflow:hidden; clear:both; margin-bottom:0px}
+.step-heading3 img {float:left; margin:0 20px 0 0 }
+.step-heading3 p {padding-top:10px; padding-bottom:10px}
+
+.stairs {padding:15px 30px; overflow:hidden }
+.stairs img {float:left; margin: 0 20px 10px 0; width:90px; height:auto}
+
+.vcenter {display: flex; align-items: center;  justify-content: left; flex-direction: row}
+.hline { border-bottom:5px dotted #f2f2f2; padding:20px 0}
+.hline:first-child{border-top:5px dotted #f2f2f2; }
+
+/*# 10 - Media ================= #*/
+
+@media (min-width: 1400px) {
+
+.pers-banner-container {background:url(/aon.radford/media/images/perspectives/pers-banner-bg.png) repeat-y 60% 50%}
+.pers .main-section-header {font-family:'OpenSans-Regular', serif}
+}
+
+
+@media (max-width: 991px) {  
+.padding-l-01 {margin-left:0!important}
+.padding-r-01 {margin-right:0!important}  
+.silo .panel {border:0; border-bottom:1px dotted #ddd}  
+.silo .panel-body{padding-bottom: 15px}  
+.pers-banner-container {background:white}  
+
+/* Perspectives chapter PIPO */  
+.flowH p {width:97% }
+.table5 {font-size:90%}
+.table4.small {font-size:80%}  
+  
+/* Original horizontal nav mobile
+.pers-nav {padding:0 0 0 15px }  
+.pers-nav-header-mobile {cursor:pointer; font-family:'prelo_slab_book'; font-size:1.2em}
+#menuElem {display:none}
+#menuElem {margin-left:12px} 
+#menuElem li {display:block; width:100%; text-align:left; border:0; font-size:1.1em; padding:5px 0!important; margin-left:-20px!important} 
+#menuElem li.intro, #menuElem li.exec, #menuElem li.rewards  {width:100%}
+#menuElem li:first-child {margin:0}
+*/  
+.first {border-top:1px dotted #ddd}
+  
+/* steps */
+.steps::after {left: 20px}
+.step-container { width: 100%; padding-left: 70px; padding-right: 25px}
+.step-container.left, .step-container.right {padding:15px 0 15px 50px}
+.step-container::after { top: 85px}  
+.left::after, .right::after {left:5px }
+.right {left: 0% }  
+   
+}
+
+
+@media only screen and (max-width:767px) { /* less than ipad vert 768px */
+.border-btm-m {border-bottom: 1px dotted #ddd;  padding-bottom: 10px}
+.vcenter {display:block}   
+.btn.pers-next, .btn.pers-prev {margin:5px 0!important}  
+.border-r-lg-md-sm {border-right:0}  
+}
+
+@media only screen and (max-width : 480px) { 
+
+}
+
+

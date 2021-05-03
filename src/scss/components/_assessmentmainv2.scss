@@ -1,0 +1,351 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.home #testimonial-slider {
+    background-color: #f2f4f6 !important;
+}
+
+.home .outer-container {
+  background: #F2F4F6;
+}
+
+.special-01.silo .panel.first {
+  padding-left:0px;
+}
+
+/* referenz card - v1*/
+.reference-slider {
+  position: relative;
+  padding: 0px 30px 45px 30px;
+  width: 100%;
+  margin: 0;
+  clear: both;
+  /* referenz card*/
+}
+
+.reference-slider .flex-control-nav li {
+  margin: 0 !important;
+  width: 2em;
+  height: 8px;
+  padding: 0px;
+}
+
+.reference-slider .referenz-card {
+  background-color: #fff;
+  height: 400px;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #4d4d4f;
+  width: 30%;
+  padding: 0 20px 0 20px;
+}
+
+.reference-slider .referenz-card:before, .reference-slider .referenz-card:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.reference-slider .referenz-card:hover:before,
+.reference-slider .referenz-card .hover:before, .reference-slider .referenz-card:hover:after,
+.reference-slider .referenz-card .hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.reference-slider .referenz-card h3 {
+  color: #003f72;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'prelo_slab_bold';
+}
+
+@media (min-width: 992px) {
+  
+  h2, .h2 {
+    font-size: 38px;
+    font-weight: bold;
+  }
+  
+  .intro {
+    font-size: 18px;
+  }
+  
+  .reference-slider .referenz-card:hover .referenz-card-overlay {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    cursor: pointer;
+  }
+  .reference-slider .referenz-card:hover .referenz-card-overlay a, .reference-slider .referenz-card:active .referenz-card-overlay a {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    visibility: visible;
+    display: block;
+  }
+}
+
+.reference-slider .referenz-card .overlay-info {
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+  width: 100%;
+}
+
+.reference-slider .referenz-card .overlay-info span {
+  display: block;
+  margin: 40px 0 40px 0;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'StoneSansIIITCPro-SmBd';
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.reference-slider .referenz-card .overlay-info span::after {
+  content: '';
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: 4px;
+}
+
+.reference-slider .referenz-card .overlay-info > div {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  width: 100%;
+  padding: 0px;
+}
+
+.reference-slider .referenz-card .overlay-info .descr {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'prelo_slab_bold';
+  line-height: 1.2;
+  margin: 0px;
+}
+
+.reference-slider .referenz-card .overlay-info .infobox {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+}
+
+.reference-slider .referenz-card .overlay-info .infobox p:nth-child(1) {
+  font-family: 'prelo_slab_bold';
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.reference-slider .referenz-card:hover .referenz-card-overlay .overlay-info span {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  -webkit-transition: opacity 0.4s cubic-bezier(0.8, 0, 1, 1);
+  transition: opacity 0.4s cubic-bezier(0.8, 0, 1, 1);
+}
+
+.reference-slider .referenz-card:hover .overlay-info .infobox {
+  opacity: 1;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.4, 0, 1, 1);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.reference-slider .referenz-card > .referenz-card-overlay > div > div > div:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0%;
+  background: white;
+  right: 0;
+  top: 0px;
+  opacity: 0.7;
+}
+
+.reference-slider .referenz-card:hover > .referenz-card-overlay > div > div > div:nth-child(1)::before {
+  width: 100%;
+  -webkit-transition: width 0.4s cubic-bezier(0.4, 0, 1, 1);
+  transition: width 0.4s cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.reference-slider .referenz-card > .referenz-card-overlay > div > div > div:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0%;
+  background: white;
+  left: 0;
+  top: 0px;
+  opacity: 0.7;
+}
+
+.reference-slider .referenz-card:hover > .referenz-card-overlay > div > div > div:nth-child(2)::after {
+  width: 100%;
+  -webkit-transition: width 0.4s cubic-bezier(0.4, 0, 1, 1);
+  transition: width 0.4s cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.reference-slider .referenz-card .referenz-card-overlay {
+  position: absolute;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  opacity: 0;
+  background-color: #003f72;
+}
+
+.reference-slider .referenz-card .referenz-card-overlay > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  visibility: visible;
+  display: block;
+}
+
+.reference-slider .referenz-card .referenz-card-overlay > div > div > div:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  height: 0%;
+  width: 1px;
+  background: white;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+}
+
+.reference-slider .referenz-card:hover .referenz-card-overlay > div > div > div:nth-child(2)::before {
+  height: 100%;
+  -webkit-transition: height 0.4s cubic-bezier(0.4, 0, 1, 1);
+  transition: height 0.4s cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.reference-slider .flex-control-nav {
+  bottom: 10px;
+  left: 0px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  border-radius: 20px;
+  right: 0;
+  background: #fff;
+}
+
+.reference-slider .flex-direction-nav {
+  display: none;
+}
+
+.reference-slider .flex-control-paging li a.flex-active {
+  background-color: #003f72 !important;
+}
+
+.reference-slider .flex-control-paging li a {
+  border: 0;
+  background: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+  height: 8px;
+}
+
+.reference-slider .logo-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 4px solid #f2f4f6;
+  margin: 40px auto 34px auto;
+  width: 150px;
+  height: 150px;
+  z-index: 10;
+}
+
+.reference-slider .logo-circle img {
+  height: 100%;
+  width: 100%;
+}
+
+/*-----------Desktop Navigation Styles-------------------*/
+@media (min-width: 992px) {
+ 
+  .reference-slider {
+    position: relative;
+    padding: 30px 30px 45px 30px;
+    width: 85%;
+    margin: 0 auto;
+    clear: both;
+  }
+  .reference-slider .flex-direction-nav {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-color: #000;
+    top: 50%;
+    margin-top: -31px;
+  }
+  .reference-slider .flex-direction-nav a {
+    display: block;
+    opacity: 1;
+    height: 53px;
+    width: 22px;
+    color: #003f72;
+    top: calc(50% - 23px);
+  }
+  .reference-slider .flex-direction-nav a.flex-prev {
+    background: url(/aon.assessment/media/images/ui/reference-slider-arrow-prev.svg) no-repeat;
+    left: -50px;
+  }
+  .reference-slider .flex-direction-nav a.flex-prev:before {
+    content: none;
+  }
+  .reference-slider .flex-direction-nav a.flex-next {
+    background: url(/aon.assessment/media/images/ui/reference-slider-arrow-next.svg) no-repeat;
+  }
+  .reference-slider .flex-direction-nav a.flex-next:before {
+    content: none;
+  }
+}
+/*-----------Desktop Navigation Styles-------------------*/

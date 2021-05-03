@@ -1,0 +1,30 @@
+
+/*# S1 - Footer =============== #*/
+#footer {background:#4d4f53; color:#fff; width:100%}
+.outer-container ~ #footer {margin-top:0!important}
+.main-footer {clear: both; font-size:0.875em}
+.main-footer p {font-size:0.9em}
+.footer-nav-header{text-transform: uppercase; font-family:'StoneSansIIITCPro-SmBd'; border-bottom:1px solid #666; padding-bottom:10px}
+#footer a {color:#fff}
+#footer a:hover{color:#fff; text-decoration:underline}
+#footer .multi div {width:18%; min-height:150px; vertical-align:top}
+.footer-copyright {padding:20px 0 70px 0}
+
+.cc_consent_outer {position:fixed; left:0; right:0; bottom:0; background-color:#4d4f53; font-size:90%; padding:6px; text-align:center!important; z-index:10}
+.CookieConsent {margin-top:10px}
+.ConsentText {color:#fff; width:auto; margin-top:10px; float:left}
+.ConsentButtons {float:left}
+.ConsentText a{color:#fff; text-decoration:underline}
+
+#scrollup{background: url(/aon.assessment/media/images/ui/icon_arrows.png) no-repeat left -65px; width: 43px; height: 43px; overflow:hidden; position:fixed; z-index:100; cursor:pointer; bottom:30px; right:20px; display:none; text-indent:-9999px;}
+#scrollup:hover{background: url(/aon.assessment/media/images/ui/icon_arrows.png) left -125px no-repeat; }
+
+@media only screen and (max-width: 991px) { 
+.footer-nav div {margin-bottom:20px}   
+}
+
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+
+#footer .multi div {width:180px; height:150px; vertical-align:top; }  
+}

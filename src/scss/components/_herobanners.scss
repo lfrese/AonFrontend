@@ -1,0 +1,109 @@
+/*# P - Hero & Banner #*/
+
+#carouselHero {/*height:70%;*/ height:435px;}
+#carouselHero .carousel .item, #carouselHero .carousel .item.active, #carouselHero .carousel .carousel-inner {height:100%; width:100%;}
+.carousel .fill { width: 100%; height: 100%; background-position: center; background-size: cover;}
+#carouselHero .carousel-caption {margin:0 auto!important; text-shadow: none; top:15% ; /*top: 50%; transform: translateY(-50%); height:325px*/}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev { display:none!important}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next { display:none!important}
+.carousel-control.left, .carousel-control.right { background: none !important; filter:  none !important;  outline: 0}
+.carousel-control { visibility: hidden!important}
+
+#carouselHero h2, #carouselHero h3 {color:#fff}
+#carouselHero h2 {font-size:48px; font-family:'prelo_slab_semibold', serif; line-height:1.2em}
+#carouselHero h3 {font-size:34px; font-family:'prelo_slab_light', serif; line-height:1.2em}
+
+.carousel .item {overflow:hidden }
+.carousel .item, .carousel .item.active, .carousel .carousel-inner {height:100%; width:100%}
+.carousel-indicators {bottom:0; z-index:2}
+.carousel-indicators li {width: 12px; height: 12px; margin:3px 3px 25px 3px;  background-color: #ddd; border: 1px solid #fff}
+.carousel-indicators .active {margin:3px 5px 25px 3px; background-color:#999}
+.valign-table {display:table; position:relative}
+.valign-cell {display:table-cell; vertical-align:middle}
+.vbottom-cell {display:table-cell; vertical-align:bottom}
+
+#carousel-1, #carousel-2 {min-height:380px}
+#carousel-1 .carousel h2, #carousel-2 .carousel h2 {margin-top:0}
+
+.hero-img img {width:100%}
+.hero-btn {text-align:center; padding:0; }
+.hero-btn li {display:inline-block; margin:20px 10px}
+
+.hero-left .carousel-caption {left:0; right:0}
+.hero-left, .hero-left .carousel-caption, .hero-left .hero-btn {text-align:left!important}
+.hero-left .hero-btn li{margin-left:0; margin-right:20px}
+.hero-right, .hero-right .carousel-caption, .hero-right .hero-btn {text-align:right!important}
+.hero-right .hero-btn li{margin-right:0; margin-left:20px}
+
+/* Slanted banner */
+#hero {width:100%; background-position:0 0, top center; background-size: cover; }
+#hero .hero-text-container {/*height:425px*/height:435px; display:table}
+#hero .hero-text {display:table-cell; vertical-align:middle; width:50%; padding-bottom:20px}
+#hero .hero-text h1, #hero .hero-text h2, #hero .hero-text h3, .hero-text h4 {margin:0; padding:0; color:#fff}
+#hero .hero-text h1 {font-size:48px; font-family:'prelo_slab_semibold', serif; line-height:1.2em}
+#hero .hero-text h2 {font-size:48px; font-family:'prelo_slab_semibold', serif; line-height:1.2em}
+#hero .hero-text h3 {font-size:34px; font-family:'prelo_slab_light', serif; margin-top:20px}
+#hero .hero-text h4 {font-size:28px; font-family:'prelo_slab_light', serif; margin-top:20px}
+
+#sec-banner {width:100%; background-position:0 0, top center; background-size: cover; }
+/*#sec-banner .hero-text-container {height:250px; display:table}
+#sec-banner .hero-text {display:table-cell; vertical-align:middle}*/
+#sec-banner .banner-container {height:250px}
+#sec-banner.noIcon .banner-container {height:200px}
+#sec-banner .banner-txt{}
+#sec-banner .icon {float:left; margin:0 30px 0 0; max-width:20%}
+#sec-banner h1, #sec-banner h5,  #sec-banner h6, #sec-banner p { margin:0; padding:5px 0; color:#fff; line-height:1.2}
+#sec-banner h1 {font-family:'prelo_slab_semibold', serif; font-size:48px}
+#sec-banner h5,  #sec-banner h6, #sec-banner .h5, #sec-banner .h6 {font-family:'StoneSansIIITCPro-Lt', serif; }
+
+.lvl3 #sec-banner  {background: url(/aon.assessment/media/images/banners/banner-hex-dblue.png) no-repeat,
+#003f72; background-size: cover;}
+
+#insights #sec-banner {background: url(/aon.assessment/media/images/banners/banner-hex-blue.png) no-repeat,
+#80bc41; background-size: cover;}
+
+
+@media only screen and (min-width: 1500px) {
+#carouselHero {height:470px/*height:60%*/}
+/*#carouselHero .carousel-caption {height:425px}  
+#carouselHero h2 {font-size:55px; line-height:65px}
+#carouselHero h3 {font-size:38px; line-height:50px}
+ */ 
+#hero .hero-text-container {height:470px}
+#hero .hero-text h1, #hero .hero-text h2 {font-size:48px}
+#hero .hero-text h3 {font-size:34px}
+
+.hero-text {width:55%}
+  
+.modal.modal-wide .modal-dialog {width: 80%; height:85%; margin-left:auto; margin-right:auto}  
+}
+
+
+@media only screen and (max-width: 991px) {  
+.banner-container.vcenter  {display: flex; align-items: center;  flex-direction: row } /* keep flex for sec banner */
+.banner-container {height:auto}  
+.hero-text {width:80%}
+}
+
+@media only screen and (max-width:767px) { /* < ipad vert 768px */
+
+#carouselHero, #hero { min-height:400px}  
+#carouselHero h2 {font-size:44px; font-family:'prelo_slab_medium', serif; line-height:50px}
+#carouselHero h3 {font-size:32px; font-family:'prelo_slab_light', serif; line-height:40px}
+  
+#hero h1, #hero h2, #sec-banner h1, #sec-banner h2 {font-family:'prelo_slab_medium', serif!important; font-size:34px!important}
+#hero h3, #sec-banner h3 {font-size:24px!important}   
+
+#sec-banner .banner-container {height:auto; padding:20px 0}
+#sec-banner.noIcon .banner-container {height:auto; padding:20px 15px}
+}
+
+
+@media only screen and (max-width : 480px) { 
+
+#carouselHero, #hero {height:100%}
+#carouselHero h2 {font-size:38px; line-height:48px}
+#carouselHero h3 {font-size:25px; line-height:35px}  
+.hero-text { width:100%!important}
+}

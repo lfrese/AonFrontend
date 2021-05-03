@@ -1,0 +1,826 @@
+/*# ===================== Top #*/
+html, body, form {height: 100%; margin:0; padding:0}
+body {font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.6; color: #4f4f4f; background-color: #fff; -webkit-font-smoothing:antialiased!important}
+.container { margin:0 auto; padding:0px 15px}
+/*# S1 - Nav #*/
+.navbar {  margin-bottom: 0}
+.navbar-default {background-color:#ededed; min-height:62px}
+.navbar-nav {margin-left:-15px}
+.nav > li > a {color:#4f4f4f!important; position:relative; display:block; padding:20px 15px!important; font-size:17px}
+.nav > li > a:hover {color:#e11b22!important}
+.nav > li.first > a {padding-left:0}
+.nav > li.last > a {padding-right:0}
+
+.navbar-nav {border:0px solid #ddd}
+.navbar-toggle {margin-top:12px}
+
+/*.dropdown:hover .dropdown-menu {display: block; margin-top: 0}*/ /*-- mouseover instead of click MOVE TO Media query */
+.dropdown-menu {background-color:#ededed; border: none; padding:0; -webkit-box-shadow: none; box-shadow: none; border-radius: 0}
+.dropdown-menu > li > a {width:auto; white-space: nowrap; border-bottom:1px solid #ccc; padding:10px 30px 10px 20px}
+.dropdown-menu > li > a:hover {background-color:#e11b22; color:#fff}
+.dropdown-menu > li:last-child > a {border-bottom:0}
+span.nav-arrow {display:inline-block; width:15px; height:15px;overflow:hidden;  margin:0 10px 0 0; background:url(/aon.ward/media/images/ui/icon_arrows.png) no-repeat 5px -17px}
+span.nav-arrow-r {display:inline-block; width:15px; height:15px;overflow:hidden;  margin:0 10px 0 0; background:url(/aon.ward/media/images/ui/icon_arrows.png) no-repeat 5px 5px}
+
+.panel, .panel-heading, panel-footer {background-color:#f3f3f3; border-radius:0!important; box-shadow:none!important; -webkit-box-shadow:none!important}
+.panel-footer {text-align:center}
+
+
+/***********<STRUCTURE>***********/
+.main-header, .main-nav, .main-content,.main-footer, .section-header-content, .social-bar-content { margin:0 auto}
+.outter-container {width:100%; background:#f3f3f3; padding:50px 0 60px 0}
+
+/*# S1 - Header logo #*/
+#header{background:#fff; width:100%}
+.main-header{height:110px}
+.main-header-logo{ float:left; margin:25px 0 0 0;}
+.main-header-links{float:right; margin-top:60px; text-transform:uppercase; font-size:12px}
+.main-header-links li{display:inline; padding:10px 15px}
+.main-header-links li > a:hover {color:#e11b22; text-decoration:none}
+.main-header-links .last{border:0; padding-right:0; margin-right:40px; }
+.main-header-links .dropdown:hover {background-color:#ededed}
+.main-header-links .dropdown-menu {z-index:1010}
+.main-header-links li li{display:block; padding:0; border-right:none; text-transform:capitalize!important}
+.main-header-links li li:first-child{display:block; margin-top:10px}
+.main-header-links li li:last-child{display:block; margin-bottom:10px}
+.main-header-links .dropdown-menu > li > a {background-color:transparent; color:#4f4f4f}
+.main-header-links li.question {padding-left: 25px; background:url(/aon.ward/media/images/ui/icon_question_03.png) no-repeat 20px 10px}
+.main-header-links li.question:hover {background:url(/aon.ward/media/images/ui/icon_question_04.png) no-repeat 20px 10px}
+.main-header-links li.call {padding-left:25px; background:url(/aon.ward/media/images/ui/icon_s_phone.png) no-repeat 0 7px}
+.main-header-links li.email {padding-left:25px;  background:url(/aon.ward/media/images/ui/icon_s_email.png) no-repeat 0 8px}
+.main-header-links li.contact {padding-left:25px; background:url(/aon.ward/media/images/ui/icon_s_contact.png) no-repeat 0 7px}
+.main-header-links .dropdown-menu > li > a:hover {background-color:transparent; color:#e11b22}
+
+.login-icon {float:right; width:22px; height:25px; margin-top:21px; margin-right: 25px; cursor:pointer; background:url(/aon.ward/media/images/ui/icon_lock.png) 0 0 no-repeat}
+.login-mobile-dropdown {display:none}
+
+/*# S1 - Search bar #*/
+#search-box { float:right; margin-top:50px; margin-right:0; text-align:right; border-bottom:1px solid #ccc}
+.searchBox input[type="text"] { display:inline-block; border:none; border-radius:0; box-shadow:none; -webkit-box-shadow:none; background-color:transparent!important}
+.searchBox input[type="submit"] {display:inline-block; border:none; background-color:transparent!important; text-indent: -9999px; margin-left:10px}
+.search-icon {width:20px; height:20px; background:url(/aon.ward/media/images/ui/icon_search_1.png) 0 0 no-repeat}
+.search-icon.search-icon-only {margin-top:23px; float:right; margin-right: 25px; cursor:pointer}
+#search-box input[type="text"]{width:120px; text-align:right; padding-right:0; color:#888}
+
+#search-box-mobile {display:none; margin-top:10px; height:50px; overlay:hidden; position:relative} /* add neg margin L R to neutralize container padding*/
+#search-box-mobile input[type='text']{border:1px solid #ddd; background-color:#f3f3f3!important; padding:7px 10px}
+#search-box-mobile .search-icon {position:absolute; right:15px; top:7px}
+
+/*# S1 - Sidebar #*/
+.main-sidebar { background-color:#f0f0f0; padding:0}
+.main-sidebar.narrow {background:none!important; padding-top:15px}
+.main-sidebar.narrow .subscribe {margin-top:-10px}
+.main-sidebar.bdbi {background:none!important; margin-top:-10px}
+
+.main-sidebar a {text-decoration:none!important}
+.main-sidebar-nav {font-size:13px; border-bottom:1px dotted #999; padding: 20px 0 0 20px}
+.main-sidebar-nav.no-bg {padding-left: 0!important}
+.main-sidebar-nav ul {list-style-type:none; padding:0 0 10px 0;}
+.main-sidebar-nav ul li{padding:3px 0 3px 20px; /*margin-left:20px*/}
+.main-sidebar-nav ul li.current{background:url(/aon.ward/media/images/ui/icon_arrow_R2_g.png) 0 10px no-repeat}
+.main-sidebar-nav.last{border-bottom:0; padding-bottom:0px}
+.main-sidebar-nav ul.no-indent li{padding:3px 0 3px 0}
+
+.main-sidebar-nav li.current a{color:#555}
+.main-sidebar-nav .main-sidebar-nav-header, .main-sidebar-nav .lead{color:#555; font-size:16px; font-weight:bold}
+.main-sidebar-nav .main-sidebar-nav-header a { color: #555;}
+.main-sidebar-nav li a { color:#555; text-decoration: none; position: relative;}
+.main-sidebar-nav a:hover { color: #5eb6e4;}
+
+.main-sidebar-content {background-color:#fff!important; padding:20px 0 10px 0}
+.main-sidebar-content img.fit {width:100%}
+
+.main-sidebar-nav p, .main-sidebar-content p {margin: 0}
+.main-sidebar-nav p + p, .main-sidebar-content p + p {margin-bottom: 10px}
+.mobile-icon {float:left; width:30px; height:25px; margin-right: 2px; background:url(/aon.ward/media/images/ui/icon_mobile_menu.png) 0 0 no-repeat}
+
+/*# S2 - Social bar #*/
+.social-bar {display:block; width:100%; min-height:35px; margin-top:15px; border-bottom:1px solid #ddd; font-size:0.857em; text-align:right; color:#777}
+.social-bar li {display:inline-block; margin-left:15px}
+.social-bar a{color:#777!important; text-decoration:none!important}
+.social-bar a:hover{color: #5eb6e4!important}
+.social-bar .icon {margin:-2px 3px 0 0}
+
+/*# P - Page header #*/
+.section-header {display:block; width:100%; min-height:160px}
+.section-header-sec {display:block; width:100%; min-height:120px}
+.section-header-content {padding-top:25px}
+.section-header-content h1, .section-header-content h2, .section-header-content .h1, .section-header-content .h2 { margin: 10px 0; color:#fff}
+.section-header-content h1 > h2, .section-header-content .h1 > h2 { margin: 5px 0 15px 0; color:#fff}
+.section-header-content h1, .section-header-content .h1 {font-family: 'prelo_slab_light', serif; font-size:270%;}
+.section-header-content h2, .section-header-content .h2 {font-size:135%; line-height:130%}
+
+/*# P - Page header background #*/
+.g-blue {color:#fff; 
+background:#0083a9; 
+background: -webkit-linear-gradient(left,#0083a9, #269dd5 ); 
+background: -o-linear-gradient(right, #0083a9, #269dd5); 
+background: -moz-linear-gradient(right,#0083a9, #269dd5);
+background: linear-gradient(to right, #0083a9, #269dd5); 
+}
+
+.g-lightblue {color:#fff; 
+background:#5eb9e4; 
+background: -webkit-linear-gradient(left, #269dd5, #5eb9e4); 
+background: -o-linear-gradient(right, #269dd5, #5eb9e4); 
+background: -moz-linear-gradient(right, #269dd5, #5eb9e4);
+background: linear-gradient(to right, #269dd5, #5eb9e4); 
+}
+
+.g-midnightblue {color:#fff; 
+background:#003f72; 
+background: -webkit-linear-gradient(left, #003f72, #002847); 
+background: -o-linear-gradient(right, #003f72, #002847); 
+background: -moz-linear-gradient(right, #003f72, #002847);
+background: linear-gradient(to right, #003f72, #002847); 
+}
+
+.g-purple {color:#fff; 
+background:#6e267b; 
+background: -webkit-linear-gradient(left, #6e267b, #8B5195); 
+background: -o-linear-gradient(right, #6e267b, #8B5195); 
+background: -moz-linear-gradient(right, #6e267b, #8B5195);
+background: linear-gradient(to right, #6e267b, #8B5195); 
+}
+
+.g-gold {color:#fff; 
+background:#f0ab00; 
+background: -webkit-linear-gradient(left , #f08d00, #f0ab00); 
+background: -o-linear-gradient(right, #f08d00, #f0ab00); 
+background: -moz-linear-gradient(right, #f08d00, #f0ab00);
+background: linear-gradient(to right, #f08d00, #f0ab00); 
+}
+
+.g-green {color:#fff; 
+background:#7AB800; 
+background: -webkit-linear-gradient(left, #7AB800, #9CCE6A); 
+background: -o-linear-gradient(right, #7AB800, #9CCE6A); 
+background: -moz-linear-gradient(right, #7AB800, #9CCE6A);
+background: linear-gradient(to right, #7AB800, #9CCE6A); 
+}
+/*# P - Home & Hero #*/
+.carousel {height:72%}
+.carousel .item, .carousel .item.active, .carousel .carousel-inner {height:100%; width:100%}
+.carousel .fill { width: 100%; height: 100%; background-position: center; background-size: cover;}
+.carousel-caption { margin:0 auto!important; height:80%; top: 50%; transform: translateY(-50%); text-shadow: none}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev { display:none}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next { display:none}
+.carousel-control.left, .carousel-control.right { background: none !important; filter: progid: none !important;  outline: 0}
+.carousel .carousel-control { visibility: hidden}
+/*.carousel-control {width:3%!important}*/
+/*.carousel:hover .carousel-control { visibility: visible}*/
+
+.hero-img img {width:100%}
+.hero-btn {text-align:center; padding:0; }
+.hero-btn li {display:inline-block; margin:20px 10px}
+.carousel h2, .carousel h3 {color:#fff}
+.carousel h2 {font-size:50px; font-family:'prelo_slab_bold', serif; line-height:1.15em}
+.carousel h3 {font-size:25px; font-family:'prelo_slab_light', serif;}
+
+.hero-left .carousel-caption {left:0; right:0}
+.hero-left, .hero-left .carousel-caption, .hero-left .hero-btn {text-align:left!important}
+.hero-left .hero-btn li{margin-left:0; margin-right:20px}
+.hero-right, .hero-right .carousel-caption, .hero-right .hero-btn {text-align:right!important}
+.hero-right .hero-btn li{margin-right:0; margin-left:20px}
+
+#hero {display:block; width:100%; min-height:425px; /*min-height:50%;*/ padding:20px; background-position:0 0, top center; background-size: cover}
+#hero h1, #hero h2, #hero h3 {color:#fff}
+#hero h1, #hero h2 {font-size:50px; font-family:'prelo_slab_book', serif; margin-top:50px }
+#hero h3 {font-size:28px; font-family:'SourceSansPro-Light', serif}
+#hero h1.xbig, #hero h2.xbig {font-size:80px}
+#hero h3.bigger {font-size:35px}
+
+/* New slanted banner */
+#hero .hero-text h1, #hero .hero-text h2, #hero .hero-text h3 {margin:0; padding:0; color:#fff}
+#hero .hero-text h1, #hero .hero-text h2 {font-size:50px; margin-bottom:-20px; font-family:'prelo_slab_bold', serif;line-height:1.15em}
+#hero .hero-text h3 {font-size:30px; font-family:'prelo_slab_light', serif}
+.hero-text { width:55%; margin-top:8%; margin-bottom:8%}
+
+.main-section-header{color:#4f4f4f; padding:0 0 20px 0; font-size:2.285em}
+.main-section-header.recent-article {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_article.png) no-repeat left top }
+
+.recent-article a, .home-product a {text-decoration:none}
+.recent-article .panel-heading {background:none; padding:0; height:140px; overflow:hidden}
+.recent-article .panel-body {padding-top:10px; height:180px}
+.recent-article .panel-body h4, .home-article .panel-body h5{font-family:"SourceSansPro-Light"} 
+.recent-article .panel-footer {text-align:left; background:none; border-top:none; padding-bottom:20px}
+.recent-article-more {margin-top:-10px}
+
+.main-section-header.home-product {font-family:"SourceSansPro-Light"; font-size:2.75em; }
+.home-product.lead {font-family:"SourceSansPro-Light"; font-size:1.5em}
+.no-padding-btm.home-product {padding-bottom:0!important}
+
+.home-product .panel {margin-bottom:30px; border:0}
+.home-product .panel-heading {padding:0; height:130px; background-color:#fff}
+.home-product .panel-body {padding-top:20px; height:225px; text-align:center; background-color:#fff}
+.home-product .panel-footer {background:none; border:none; padding-bottom:0px; background-color:#fff}
+.home-product .name{font-family:"OpenSans-Regular"; font-size:1.4em; line-height:1.425em;}
+.home-product .intro{font-size:1em; padding-top: 8px}
+.home-product.explore .panel{background-color:#5eb6e4; color:#fff; height:270px;}
+.home-product.explore p{font-family:'SourceSansPro-Light'; font-size:170%; padding-top:40px}
+.home-product .btn {text-transform:uppercase; font-size:90%; padding:13px 25px; margin-top:20px}
+.home-product.explore .panel a {color:#fff}
+
+.home-ah {text-align:right}
+.home-ah h2 {font-family:"SourceSansPro-Light"; font-size:2.75em; color:#4f4f4f!important}
+
+/*# P - Products panel #*/
+.product .panel {border-color:#ddd;}
+.product .panel-heading {padding-bottom:35px; background-color:#003f72; border-radius:0;}
+.product .panel-heading h3,.panel-heading h4  {color:#fff; font-size:19px}
+.product .panel-body { padding-top:60px; height:240px; background-color:#f3f3f3}
+.product .panel-body img {position:absolute; top:80px; left:50%; transform: translateX(-50%)}
+.product .panel-footer {text-align:center;  background-color:#f3f3f3; border-top:none; padding-bottom:20px;}
+
+.panel-body .icon a{position:absolute; width:87px; overflow:hidden; height:100px; top:80px; left:50%; transform: translateX(-50%)}
+.icon-svc img {filter: gray!important; filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);}
+.icon-svc img:hover {filter: none!important; filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%);}
+
+.stats {line-height:1.3}
+.stats .stats-number {font-size:300%; color:#939598; font-family: 'prelo_slab_medium', serif}
+.stats .stats-txt {font-size:115%; color:#5eb6e4}
+.stats .stats-number-02 {font-size:300%; color:#939598; font-family: 'prelo_slab_medium', serif}
+.stats .stats-txt-02 {font-size:130%; color:#5eb6e4}
+
+/*# P - Products POV #*/
+.pov {margin-top:20px; marign-bottom:20px}
+.pov h1, .pov h2 {font-family:'prelo_slab_bold', serif; font-size:34px; color:#4f4f4f}
+.pov .lead {font:16px/26px Arial }
+.pov .bigger {font:20px/30px Arial }
+.pov p, .pov ul, .pov li, .pov td {font:15px/24px Arial}
+ul.para li {margin-top:15px!important}
+.pov h3 {font-family:'SourceSansPro-Light', serif; font-size:35px; padding-bottom:15px}
+.pov h4 {font-family:'SourceSansPro-Light', serif; font-size:30px; padding-bottom:15px}
+.pov h5 {font-family:'SourceSansPro-Light', serif; font-size:25px; padding-bottom:15px}
+.pov .section {margin-bottom:30px}
+.pov .contact-info .panel {overflow:hidden}
+.pov .contact-info h3.modal-title {padding-bottom:0}
+.pov .border-btm {border-bottom:1px solid #ddd; padding-bottom:10px}
+.pov .thumb {float:left; margin-top: 15px; margin-right:20px}
+.pov .recent-article a {text-decoration:none}
+.pov .btn-primary {padding: 15px 45px; background-color: #fff;  color: #0083a9;  font-weight: bold}
+.pov .btn-primary:hover {background:#eaeaea}
+
+/*# P - Page form #*/
+select.filterby {font-size: 14px; border: 0 none; cursor:pointer}
+.filter {margin-top:20px}
+.customSelect {padding:10px 10px;
+background: #e9e9e9;
+background: -webkit-linear-gradient(top, #f4f5f5, #e9e9e9);
+background: -moz-linear-gradient(top, #f4f5f5, #e9e9e9);
+background: -ms-linear-gradient(top,  #f4f5f5, #e9e9e9);
+background: -o-linear-gradient(top,  #f4f5f5, #e9e9e9);
+background: linear-gradient(top,  #f4f5f5, #e9e9e9);}
+.customSelect.changed {background-color: #f0dea4;}
+.customSelectInner { background:url(/aon.ward/media/images/ui/icon_arrow_D2_r.png) no-repeat right center;}
+
+.form-table.fixed-label label {margin-right:15px }
+.form-control {margin-top:3px; margin-bottom:3px; border-radius:0; -webkit-box-shadow:none; box-shadow:none}
+.txtError-inline {color:#e11b22!important; padding-left:10px}
+.form-box {list-style-type:none!important; padding-left:0; }
+.form-box label {font-weight:normal; width:140px; vertical-align:top}
+.form-box .form-input, .form-box .form-textarea, .form-box .form-select {width:300px; margin:2px 0;  padding:1px 5px}
+.form-select {height:30px; line-height:30px}
+.form-box.no-label .form-input, .form-box.no-label .form-textarea, .form-box.no-label .form-select {width:100%; padding:5px; margin:5px 10px 5px 0; color:#555;  border:1px solid #ccc}
+
+.form-box .form-checkbox {margin:10px 5px 0 0}
+.FormButton {margin:10px 0}
+.bgError {border-left:5px solid #e21a22!important}
+
+.sidebar-form { padding:10px 0}
+.sidebar-form .btn-primary {background-color:#6e267b; padding:10px 20px; margin-top:0 }
+.sidebar-form .btn-primary:hover {background-color:#8B5195}
+.sidebar-form .form-box.no-label .form-input {margin:1px 0}
+.sidebar-form .form-input {background: #efefef; width:95%!important; padding:8px 10px!important}
+.sidebar-form ul.no-indent li{padding:5px 0!important}
+
+
+/*# p - Page contact #*/
+.panel-primary {border:1px solid #ddd}
+.panel-primary .panel-heading {background-color:#c9cac8}
+.panel-heading a {color:#fff!important; text-decoration:none}
+
+.acc-header {background-color:#f0f0f0; padding:10px 50px; position:relative;}
+.acc-header.accordion {border-top:1px solid #fff; cursor:pointer}
+.acc-header.accordion:hover{background-color:#c9cac8}
+.acc-header.accordion.first {border:none}
+.acc-arrow {position:absolute; display:block; text-align:center;  width:30px; top:0; left:0; padding:10px 20px; font-size:30px; color:#4f4f4f}
+.acc-arrow.tline{padding:22px 20px!important}
+.acc-content.acc-close{display:none}
+.acc-content.acc-open {display:block}
+
+/*# p - Leadership #*/
+.main-body-content ul.filterOutput li {background:none!important; position:relative}
+.filterOutput li:hover{background:#eaeaea;}
+.filterOutput li div{overflow:hidden; height:150px; border:1px solid #ccc; margin:0 10px 20px 0; padding:10px}
+.filterOutput a {text-decoration:none; color:#4f4f4f}
+
+/*# P - Search & sitemap & pagination  #*/
+.SearchDialog {margin-left:15px}
+.search-result-list {border-bottom:1px solid #ddd; padding:10px 0}
+.search-result-item h4 {line-height:1; margin-bottom:0; font-size:150%}
+.search-result-item p a {color:#777!important; font-size:90%}
+.main-body-content .pagination li, .main-body-content .pagination li a {display:inline-block; font-weight:bold; background:none; padding:5px 10px}
+.main-body-content .pagination li.is-active {background-color:#0083a9!important; color:#fff}
+.main-body-content .pagination li a:hover {background-color:#5eb9e4; color:#fff}
+.PagerResults {display:none}
+.SelectedPage {padding:5px 10px; background-color:#0083a9!important; color:#fff; font-weight:bold; text-decoration:none!important}
+.UnselectedPage {padding:5px 10px; font-weight:bold; text-decoration:none!important}
+
+/*# P - Generic ============ #*/
+.headshot div{margin-bottom:30px; text-align:center; padding:0 30px; height:315px}
+.headshot p{line-height:20px}
+.headshot img{border:1px solid #d5d5d5; padding:7px; width:185px}
+
+.article-list {border-bottom:1px solid #ddd; padding-bottom:1.5em}
+.article-list:last-child{border:none}
+.article-list .icon-list a  {text-decoration:none; color:#4f4f4f}
+.article-list h2 {color:#0083a9!important}
+.article-list h2 a:hover {text-decoration:none; color:#5eb6e4}
+.article-list .col-sm-3 .icon-list {margin-top:30px}
+
+/*# P - Page insights #*/
+.research-box .main-section-header {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_research.png) no-repeat left top }
+.event-box .main-section-header {font-family:Arial; font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_people.png) no-repeat left top }
+.news.main-section-header {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_broadcast.png) no-repeat left top }
+.infograph-box .main-section-header {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_infographics.png) no-repeat left top }
+.report-box .main-section-header {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_research.png) no-repeat left top }
+
+.research-box .recent-article .panel-heading {background:none!important; padding:0; height:140px; overflow:hidden}
+.research-box .recent-article .panel-body {padding-top:10px; height:150px}
+
+.infograph-box h3 { font-family: 'prelo_slab_medium', serif; font-size:45px; line-height:1.3; text-align:left; padding:0 15px 0; margin:10px 0 0 0; color:#fff }
+.infograph-box .h4 {font-family:"SourceSansPro-Light"; font-size:16px; line-height:1.4; text-align:right; padding:0 20px 0 15px; margin-top:0; color:#fff}
+
+.event-box .panel-heading {background-color:#003F72; color:#fff; font-family:"SourceSansPro-Light"; padding:5px 15px; height:140px; text-align:left; border-bottom:1px solid #fff}
+.event-box .events .panel-heading {background-color:#7AB800}
+.event-box .panel-heading a {color:#fff}
+.event-box h3 {font-size:22px; line-height:1.3}
+.event-box .h4 {font-size:20px; line-height:1.5}
+.event-box .panel-body{font-family:"SourceSansPro-Light"; padding-top:20px; height:150px}
+
+/*featured box on Insights landing promoting perspectrives*/
+.featured-box .main-section-header {font-size:2em; padding-bottom:0; padding-left:40px; background:url(/aon.ward/media/images/ui/icon_featured.png) no-repeat left top }
+.featured {position:relative}
+.featured-text {position:absolute; top:15px; left:30px; z-index:10; padding:15px 20px; width:90%}
+.featured-text h2, .featured-text h4 {color:#fff}
+.featured-text h2 {font-size:43px; font-family:'prelo_slab_book', serif;}
+.featured-text h4, .featured-text h3 {font-size:25px; font-family:'prelo_slab_light', serif; margin-bottom:40px}
+.featured img {position:relative; z-index:1; min-height:300px}
+
+/*.special-report h1, .special-report h2, .special-report h3, .special-report h4, .special-report a, .special-report .tag a {color:#6e267b!important}*/
+.special-report h1 {font-size:33px; font-family: 'prelo_slab_book', serif;}
+.special-report h2 {font-size:30px; font-family: 'prelo_slab_book', serif}
+.special-report h3 {font-size:27px; font-family: 'prelo_slab_book', serif;}
+.special-report h4 {font-size:23px; font-family: 'prelo_slab_book', serif;}
+.special-report img.report-cover {float:left; max-height:240px; margin:25px 30px 20px 0; opacity: 1; filter: alpha(opacity=100); border:1px solid #ccc  }
+/*.special-report img.report-cover:hover {opacity: 1; filter: alpha(opacity=1)  }*/
+
+.special-report .thumb1 {margin:0 0 20px 30px}
+
+/* quote/callout in special reports, case studies*/
+.callout {width: 210px; padding:0 15px}
+.callout h3, .callout h4 {color:#4f4f4f!important}
+.callout-full {overflow:hidden}
+.callout.left {float:left; margin:10px 20px 10px 0; text-align:left}
+.callout.right {float:right; margin:10px 0 10px 20px; text-align:right}
+
+.iconBar a{color:#4f4f4f!important; text-decoration:none!important}
+.iconBar a:hover {color:#5eb6e4!important}
+.tag a{color:#0083a9!important}
+.iconBar li.inline {float:left; margin-right:15px}
+.iconBar {padding:15px 0; border-top:1px solid #eaeaea; border-bottom:1px solid #ddd}
+
+.icon-list li.date{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 2px no-repeat}
+.icon-list li.location{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 -278px no-repeat}
+.icon-list li.open{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 -51px no-repeat}
+.icon-list li.download{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 -102px no-repeat}
+.icon-list li.author{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 -160px no-repeat}
+.icon-list li.tag{padding: 0 0 0 25px; background: url(/aon.ward/media/images/ui/icon_articles.png) 0 -220px no-repeat}
+.icon-list li.none{list-style-type:none; padding: 0}
+
+.eventDesc {background-color:#f0f0f0; padding:30px}
+.link {cursor:pointer; color:#0083a9}
+.link:hover {color:#5eb9e4}
+
+.fnote, .fnote2 {display:block; font-size:13px; width:99%; line-height:17px}
+.fnote-line {border-top:1px solid #aaa; width:30%}
+
+/*# F1 - Overall #*/
+h1, h2, h3, h4, h5 {line-height:1.4; color:#0083A9}
+h1, .h1 {font-size:30px}
+h2, .h2 {font-size:26px}
+h3, .h3 {font-size:24px}
+h1, .h1, h2, .h2, h3, .h3 {margin-top:20px; margin-bottom:20px}
+p {margin:10px 0}
+p  + p {margin: 1.2em 0 0 0 }
+
+a, a:link, a:active {color:#0083a9}
+a:hover {color:#5eb9e4}
+a.related, a.related:hover {color:#4f4f4f!important; text-decoration:none!important; cursor:pointer!important}
+
+.main-body-content a{text-decoration:underline}
+.main-body-content li a, .main-body-content .article-list a, .search-result-item a {text-decoration:none}
+/*.main-body-content .CMSSiteMapLink {color:#4f4f4f}*/
+
+.arthilight, .boxGray{border:1px solid #d5d5d5; background:#eee; padding:15px;}
+.arthilight2, .boxGray2{background:#eee; padding:20px 30px; margin-top:15px}
+.box-highlight {background-color:#efefef; padding:10px 30px 30px 30px; margin:20px 0}
+.box-header {background-color:#5eb9e4; padding:10px 20px; color:#fff}
+
+/*# F1 - Bullet #*/
+.main-body-content ul, .main-body-content ol {margin-top:0; margin-bottom:0}
+.main-body-content ul  {list-style-type:none; padding-left:0; }
+.main-body-content ul li {padding:0 5px 2px 15px; margin-top:7px; background: url(/aon.ward/media/images/ui/bullet_s.png) 0 8px no-repeat;}
+.main-body-content ul.lead li {padding:0 5px 2px 15px; margin-top:7px; background: url(/aon.ward/media/images/ui/bullet_s.png) 0 12px no-repeat;}
+.main-body-content ul li  li{ padding:0 0 8px 17px; background: url(/aon.ward/media/images/ui/bullet_bullet.png) 2px 8px no-repeat}
+.main-body-content ul li  li.arrow{ padding:0 0 8px 17px; background: url(/aon.ward/media/images/ui/icon_arrow_R4_b.png) 2px 7px no-repeat}
+.main-body-content ul.double li {margin-top:15px}
+.main-body-content ul.single li {margin-top:0}
+.main-body-content ul li.txt { padding:0 5px 5px 0; background:none;}
+.main-body-content ol{margin: 0 5px 5px 15px; list-style:decimal;}
+.main-body-content ol li{margin:7px 0}
+.main-body-content ol.alpha {list-style-type:lower-alpha}
+.main-body-content ul.arrow-list li {padding:0 0 8px 17px;  background: url(/aon.ward/media/images/ui/icon_arrow_R4.png) 3px 7px no-repeat}
+
+.main-body-content ul.CMSSiteMapList li {background:none; font-size:140%; padding:0 5px 10px 0; }
+.main-body-content ul.CMSSiteMapList li li{border-bottom:0; font-size:14px!important; padding:0 5px 7px 15px; background: url(/aon.ward/media/images/ui/bullet_s.png) 0 8px no-repeat;}
+.main-body-content ul.CMSSiteMapList li:first-child {margin:8px 0}
+.main-body-content ul.CMSSiteMapList li li:first-child {margin:0}
+.no-bullet, .no-bullet:hover  {list-style-type:none; padding-left:0; }
+
+/*# F1 - Button default #*/
+a.btn {text-decoration:none; padding:10px 15px}
+.btn-info {background-color:#0083a9; border:none; color:#fff!important}
+.btn-info:hover {background-color:#5eb9e4}
+.btn-info.btn-footer {background-color:#5eb6e4; font-size:130%; padding:8px 40px}
+.btn-info.btn-footer:hover {background-color:#77c5ec; font-size:130%; padding:8px 40px}
+
+.main-header-links.header-btn{margin-top:50px}
+.btn-info.btn-header {background-color:#e11b22; padding:8px 40px; text-transform:none}
+.btn-info.btn-header:hover {background-color:#e11b22;padding:8px 40px; text-transform:none}
+
+.btn-info.btn-2 {background-color:#003f72 }
+.btn-info.btn-2:hover {background-color:#3F6790!important }
+
+.btn-info.btn-3 {background-color:#5eb6e4 }
+.btn-info.btn-3:hover {background-color:#77c5ec!important }
+
+.btn-info.invert {background-color:#fff; border:1px solid #009ebe; color:#009ebe!important}
+.btn-info.invert:hover {background-color:#009ebe; color:#fff!important}
+.btn-primary  {padding-left:40px; padding-right:40px; background-color:#0583a9; border:0}
+.btn-primary:hover {background-color:#019dbd; border:0}
+
+
+/*# F1 - Button add #*/
+ul.buttons {margin:0; padding:0; margin-top:25px}
+.btn-hero{height:50px; line-height:50px; vertical-align:middle; text-align:center; padding:0 20px; color:#004271; font-weight:bold; font-size:110%; background-color:#fff; position:relative; display:inline-block;}
+.btn-hero:after{position:absolute; right:-20px; content:" "; width: 0px; height: 0px;    border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #fff;}
+.btn-hero:hover{background-color:#ccc}
+.btn-hero:hover:after{width: 0px; height: 0px; border-style: solid; border-width: 25px 0 25px 20px; border-color: transparent transparent transparent #ccc}
+a.btn-hero {text-decoration:none; color:#4d4d4f}
+
+.button {text-align:center; padding:17px 40px; color: #fff; font-weight:bold; font-size:16px; text-decoration:none}
+.button, .button:hover, .button a, .button a:hover {color:#fff!important; text-decoration:none!important}
+
+.button-r {border: 1px solid #be0101;
+  background-color: #ed1c24;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkMWMyNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NlMTMxYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed1c24), color-stop(100%, #ce131b));
+  background-image: -webkit-linear-gradient(top, #ed1c24, #ce131b);
+  background-image: -moz-linear-gradient(top, #ed1c24, #ce131b);
+  background-image: -o-linear-gradient(top, #ed1c24, #ce131b);
+  background-image: linear-gradient(top, #ed1c24,#ce131b);
+  text-shadow: rgba(0,0,0,0.6) 0 1px 1px;
+  -webkit-box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+  -moz-box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+  box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+}
+
+.button-r:hover { background-color: #ce131b;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NlMTMxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkMWMyNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce131b), color-stop(100%, #ed1c24));
+  background-image: -webkit-linear-gradient(top, #ce131b, #ed1c24);
+  background-image: -moz-linear-gradient(top, #ce131b, #ed1c24);
+  background-image: -o-linear-gradient(top, #ce131b, #ed1c24);
+  background-image: linear-gradient(top, #ce131b,#ed1c24);
+}
+
+.button-b { border: 1px solid #017495;
+  background-color: #017495;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAxNzQ5NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwM2Y3YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #017495), color-stop(100%, #003f7b));
+  background-image: -webkit-linear-gradient(top, #017495, #003f7b);
+  background-image: -moz-linear-gradient(top, #017495, #003f7b);
+  background-image: -o-linear-gradient(top, #017495, #003f7b);
+  background-image: linear-gradient(top, #017495,#003f7b);
+  text-shadow: rgba(0,0,0,0.6) 0 1px 1px;
+  -webkit-box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+  -moz-box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+  box-shadow: rgba(0,0,0,0.4) 1px 1px 3px 0,inset 0 1px 1px rgba(255,255,255,0.4);
+}
+
+.button-b:hover { background-color: #003f7b;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAxNzQ5NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwM2Y3YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #003f7b), color-stop(100%, #017495));
+  background-image: -webkit-linear-gradient(top, #003f7b, #017495);
+  background-image: -moz-linear-gradient(top, #003f7b, #017495);
+  background-image: -o-linear-gradient(top, #003f7b, #017495);
+  background-image: linear-gradient(top, #003f7b,#017495);
+}
+
+/*# F1 - Overlay & Tab #*/
+.modal {text-align: center; padding: 0!important}
+.modal:before {content: '';  display: inline-block;  height: 100%;  vertical-align: middle;  margin-right: -4px;}
+.modal-dialog {display: inline-block;  text-align: left;  vertical-align: middle;}
+
+.modal-link{cursor:pointer}
+.modal-content {-webkit-box-shadow:none; padding:15px 20px; box-shadow:none; border-radius: 0; }
+.modal.modal-wide .modal-dialog {width: 85%; height:90%; margin-left:auto; margin-right:auto}
+.modal-wide .modal-body, .modal-form .modal-body, .modal .modal-body {overflow-y: auto}
+
+.img-responsive {margin:0 auto}
+#video-modal .modal-dialog { width: 1000px;  max-width:90%;  min-width:480px}
+.nav-tabs {font-weight:bold}
+.nav-tabs > li.active > a {color:#0083a9!important; background-color: #fff; border: 1px solid #ddd; border-bottom-color: transparent}
+
+/*# F2 - Addon format & sizing ====== #*/
+.page-header {border:none; margin-top:30px; margin-bottom:0 }
+.no-page-header {margin-top:-10px}
+.overflowhidden {overflow:hidden}
+.lead {margin-bottom: 10px;  font-size: 16px;  font-weight: 300;  line-height: 1.6;}
+.lead2 {font-family:'SourceSansPro-Light', serif; font-size:20px; line-height:1.3}
+.columnized { -moz-columns: 150px 3; -webkit-columns: 150px 3; columns: 150px 3;}
+.border-btm{border-bottom:1px solid #0083A9} /* use with header */
+.border-bottom {border-bottom:1px solid #ddd}
+.border-top {border-top:1px solid #ddd}
+.border-left {border-left:1px solid #ddd}
+.divider-h {border-bottom:3px dotted #ddd}
+.border{border:1px solid #ddd}
+.noborder{border:0!important}
+.underline {text-decoration:underline!important}
+.read-more {display:inline-block; width:10px; height:10px; margin-left:5px; background:url(/aon.ward/media/images/ui/icon_more_blue.png) no-repeat 0 0}
+.arrow-s-b {font-size:22px; color:#0083a9; position:relative; top:2px; margin-left:2px}
+.arrow-s-p {font-size:22px; color:#6f288a; position:relative; top:2px; margin-left:2px}
+
+.main-content .border-left {padding-left:30px}
+
+.xsmall {font-size: 60%}
+.smaller {font-size:70%} 
+.small {font-size: 80%}  
+.medium {font-size:90%}
+.big {font-size:110%}
+.bigger {font-size:120%}
+.xbig {font-size:130%}
+.xlbig {font-size:140%}
+
+/*# F2 - Addon text & bg colors #*/
+.txtGreen{color:#9cce6a!important}
+.txtLBlue{color:#5eb6e4!important}
+.txtBlue{color:#0083a9!important}
+.txtMBlue {color:#406991!important}
+.txtDBlue{color:#003f72!important}
+.txtRed{color:#e11b22!important}
+.txtGray{color:#4e5053!important}
+.txtLGray{color:#c9cac8!important}
+.txtBlack{color:#4e5053!important}
+.txtGreen {color:#7AB800!important}
+.txtMGreen {color:#9CCE6A!important}
+.txtWhite {color:#fff!important}
+.txtPurple {color:#6e267b!important}
+
+.bgWhite{background-color:#fff!important}
+.bgLBlue{background-color:#5eb6e4!important}
+.bgBlue{background-color:#0083a9!important}
+.bgMBlue{background-color:#406991!important}
+.bgDBlue{background-color:#003f72!important}
+.bgRed{background-color:#e11b22!important}
+.bgGold{background-color:#f0ab00!important}
+.bgGray {background-color:#4e5053!important}
+.bgLGray {background-color:#c9cac8!important}
+.bgxLGray {background-color:#f0f0f0!important}
+.bgGreen {background-color:#7AB800!important}
+.bgMGreen {background-color:#9CCE6A!important}
+.bgPurple {background-color:#6e267b!important}
+
+.opac {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); -moz-opacity: 1; opacity:1;-moz-opacity:1;}
+.opac:hover {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70); -moz-opacity: 0.7; opacity:0.7;-moz-opacity:0.7;}
+.clear {clear:both!important}
+.clear-right {clear:right!important}
+.clear-left {clear:left!important}
+
+.strong, .bold{font-weight:bold}
+.italic, .em{font-style:italic}
+.title-case {text-transform: capitalize}
+.no-underline, .no-underline:hover {text-decoration:none!important}
+.text-flow-2 {-webkit-column-count: 2; -moz-column-count: 2;  column-count: 2; -webkit-column-gap: 40px; -moz-column-gap: 40px; column-gap: 40px;}
+
+
+/*# F2 - Addon spacing & positioning #*/
+
+.aligncenter {text-align:center!important}
+.alignleft {text-align:left!important}
+.alignright {text-align:right!important}
+
+.indent {margin-left:50px!important; margin-right:50px!important;}
+.indent2 {margin-left:20px!important; margin-right:20px!important;}
+
+.padding1 {margin:10px}
+.padding2 {margin:20px}
+.padding3 {margin:30px}
+.padding4 {margin:40px}
+
+.vspaceT{margin-top:15px!important}
+.vspaceT2 {margin-top:30px!important}
+.vspaceT3 {margin-top:40px!important}
+.vspaceB{margin-bottom:15px!important}
+.vspaceB2 {margin-bottom:30px!important}
+.vspaceB3 {margin-bottom:40px!important}
+
+.hspaceR {margin-right:20px!important}
+
+.vAlignT {vertical-align:top}
+
+.abs-bottom {position:absolute; bottom:25px}
+.abs-top {position:absolute; bottom:25px}
+
+.thumb-left, .thumb{float:left; margin:0 15px 15px 0;}
+.thumb-right, img.thumb1{float:right; margin:0 0 15px 15px;}
+.thumb-clear{margin:0; clear:both!important}
+
+/*# F2 - Table #*/
+.table{border:1px solid #ccc; border-collapse:collapse; margin:0 auto;}
+.table td {border: 1px solid #ccc; padding: 5px; vertical-align:top; text-align:left;}
+.table.center td, .table td.center {text-align:center;}
+.table th { font-weight:bold; border: 1px solid #ccc; padding: 5px; color:#fff; text-align:center; background-color:#0083A9;}
+
+/*# S1 - Footer =============== #*/
+#footer {background:#4d4f53; color:#fff; width:100%; margin-top:50px}
+.outter-container ~ #footer {margin-top:0!important}
+.main-footer {clear: both; font-size: 13px; padding-top:40px; padding-bottom:30px}
+.footer-nav-header{text-transform: uppercase; font-size: 12px; font-weight: bold; line-height:40px}
+#footer a {color:#fff}
+#footer a:hover{color:#fff}
+/*.footer-nav-header a{color: #fff}
+.footer-nav-header a:hover { color:#fff}*/
+
+.footer-copyright {padding:20px 0 70px 0; border-top:1px solid #666}
+
+/* Footer - PRC / Blind */
+.main-footer.no-nav {clear: both; font-size: 13px; padding-top:0 }
+.main-footer.no-nav .footer-copyright {padding:20px 0 70px 0; border-top:0}
+
+#scrollup{background: url(/aon.ward/media/images/ui/icon_arrows.png) no-repeat left -65px; width: 43px; height: 43px; overflow:hidden; position:fixed; z-index:100; cursor:pointer; bottom:30px; right:20px; display:none; text-indent:-9999px;}
+#scrollup:hover{background: url(/aon.ward/media/images/ui/icon_arrows.png) left -125px no-repeat; }
+
+/*# ZZ - Media ================= #*/
+
+@media only screen and (max-width:767px) { /* less than ipad vert 768px */
+.section-header-content {padding-bottom:20px}
+.headshot div{height:auto}
+.product .panel-body { padding-top:60px; height:auto}
+.home-product .panel-body, .home-article .panel-body{height:auto!important}  
+.recent-article .panel-heading {visible:hidden; display:none}
+.recent-article.news .panel-heading, .recent-article.events .panel-heading, .recent-article.infograph .panel-heading  {visible:visible; display:block; height:auto!important}
+.infograph-box .h4 {text-align:left}  
+.home-product .panel {border-bottom:1px solid #ddd}   
+.home-product .panel.n3 .panel-footer {padding-bottom:30px!important}
+.home-product .panel.n3 {border-bottom:1px solid #ddd!important}   
+
+.pov .contact-info .panel {height:auto; min-height: 180px}
+  
+.home-ah {text-align:center}
+.main-section-header.home-product {font-size:2.3em} 
+.thumb-left, .thumb{float:none; margin:0 auto}
+.thumb-right, img.thumb1{float:none; margin:0 auto}
+.thumb-clear{margin:0 auto}
+
+/* add - carousel */
+.carousel-caption {padding-bottom:20px}  
+.hero-btn .button {padding:10px 20px!important; font-size:14px!important; margin: 0 0 15px 0 !important; width:250px!important}    
+.carousel h2{font-size:40px}
+.carousel h3, {font-size:20px}  
+.carousel {height:72%; max-height:600px}   
+
+.featured-text {padding:10px}  
+.featured-text h2 {font-size:28px}
+.featured-text h3, .featured-text h4{font-size: 18px} 
+.featured img {min-height:450px}
+
+.special-report h1 {font-size:28px}
+.special-report h2 {font-size:25px}
+.special-report h3 {font-size:22px}
+.special-report h4 {font-size:17px}  
+.special-report img.thumb, .special-report img.thumb1, .special-report img.report-cover {clear:both!important; float:none; margin:15px auto 0 auto }
+  
+.callout {width:80%; text-align:center; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding:15px}
+.callout.left {float:none; margin:0 auto; text-align:center}
+.callout.right {float:none; margin:0 auto; text-align:center}
+.text-flow-2 {-webkit-column-count: 1; -moz-column-count: 1;  column-count: 1}
+  
+.form-box .form-input, .form-box .form-textarea, .form-box .form-select {width:100%}
+.modal.modal-form { position: absolute; top: 15px; }  
+}
+
+@media only screen and (max-width : 480px) { 
+.carousel {height:100%}  
+img.thumb, img.thumb1 {clear:both!important; float:none; margin:0 auto }  
+.home-product .name{font-size:1.475em!important; line-height:1.45em}
+.home-product .intro{font-size:1.275em!important}  
+.recent-article .panel-heading {visible:block!important; display:block!important}  
+}
+
+@media (min-width:768px) { /* ipad vert & up */
+.nav > li > a {padding:20px 34px 20px 0}
+   
+}
+
+@media only screen 
+and (min-width:768px) 
+and (max-width:1024px)  {    
+}
+
+
+@media (max-width: 991px) { 
+/* add - to collapse menu on ipad */  
+  .navbar-header {float: none }
+  .navbar-toggle {display: block; border:none; background:none; padding:0; margin-top:20px; margin-right:5px }
+  .navbar-toggle:hover {cursor:pointer; background:none!important}
+  .navbar-collapse {border-top: 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1)}
+  .navbar-collapse.collapse {display: none!important}
+  .navbar-nav {float: none!important; margin: 7.5px -15px; border-top:1px solid #ddd}
+  .navbar-nav>li {float: none}
+  .navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px}
+  .navbar-text {float: none; margin: 15px 0 }
+  .navbar-collapse.collapse.in {display: block!important}  /* since 3.1.0 */
+  .collapsing {overflow: hidden!important}
+  
+  .navbar-nav .dropdown-menu {display:none!important}
+  .nav > li > a {padding:10px 15px!important} 
+  span.nav-arrow {background:url(/aon.ward/media/images/ui/icon_arrows.png) no-repeat 5px 5px}
+  .navbar-default {background-color:#fff} 
+/* end add #1*/  
+/* add - carousel */  
+.button {padding:10px 20px!important; font-size:14px!important; margin: 0 0 15px 0 !important;}    
+.carousel h2 {font-size:45px}
+.carousel h3 {font-size:22px}  
+
+.featured-text {padding:10px}  
+.featured-text h2 {font-size:40px}
+.featured-text h3, .featured-text h4{font-size: 20px} 
+  
+.headshot div{height:300px}  
+
+/* add - sidebar */
+.main-sidebar-nav, .main-sidebar-nav #menuElem, .main-sidebar-nav .sidebar-contact   {display:none}
+.main-sidebar-nav.mobile {display:block; padding-bottom:5px}
+.main-sidebar-nav-header {display:none} 
+.sidebar-header-mobile, .sidebar-header-mobile-info{font-weight:bold; font-size:120%}  
+.sidebar-header-mobile:hover, .sidebar-header-mobile-info:hover{cursor:pointer}
+.sidebar-header-mobile{font-weight:bold; font-size:120%}  
+.sidebar-header-mobile:hover{cursor:pointer}
+.main-sidebar-nav #menuElem, .main-sidebar-nav .sidebar-contact  {margin-left:12px}  
+
+.main-sidebar.narrow {background:#f0f0f0!important; margin-top:20px}
+.main-sidebar-nav.last{padding-top:5px; padding-bottom:5px}
+.main-sidebar-nav.no-bg {padding-left: 20px!important}  
+.main-sidebar-nav ul.no-indent li{padding:3px 0 3px 20px} /*indent text again on mobile*/
+.main-sidebar.bdbi, .main-body-content.bdbi {border-bottom:1px solid #ddd}  
+.main-content .border-left {padding-left:15px} 
+
+.home-product .panel-body, .home-article .panel-body{height:auto!important}  
+.home-product .panel {border-bottom:1px solid #ddd}  
+.home-product .panel-footer {padding-bottom:30px}
+.home-product .panel.n3 .panel-footer, .home-product .panel.n4 .panel-footer {padding-bottom:0}  
+.home-product .panel.n3, .home-product .panel.n4 {border-bottom:0} 
+  
+.footer-nav div {margin-bottom:20px}  
+.home-product .intro{font-size:100%} 
+.recent-article .panel-body{height:120px}  
+.research-box .recent-article .panel-body {height:100px}  
+.home-ah h2 {font-size:2em}  
+.border-left {border:0}
+
+#hero {height:auto; min-height:350px}     
+#hero h1, #hero h2 {font-size:40px; margin-top:30px }
+.hero-text {width:80%}
+.bdbi-banner-container {background:white}    
+
+}
+
+@media(min-width:992px) {
+.dropdown:hover .dropdown-menu {display: block; margin-top: 0} /*-- mouseover instead of click MOVE TO Media query */
+}
+
+@media (min-width: 1400px) {
+.carousel-caption { height:65%}
+.carousel h2 {font-size:60px}
+.carousel h3 {font-size:30px}   
+
+}
+
+/*# ZZA End #*/
